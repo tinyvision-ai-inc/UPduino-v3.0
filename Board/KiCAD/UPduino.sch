@@ -300,7 +300,7 @@ F 3 "" H 3850 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino-rescue:ASDMB-xxxMHz-Oscillator U4
+L UPduino-rescue:ASDMB-xxxMHz-Oscillator-UPduino-rescue U4
 U 1 1 5DD7B677
 P 8800 1550
 F 0 "U4" H 9050 1150 50  0000 L CNN
@@ -364,7 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 8350 2900 8350
 $Comp
-L UPduino-rescue:93LCxxBxxOT-Memory_EEPROM U1
+L UPduino-rescue:93LCxxBxxOT-Memory_EEPROM-UPduino-rescue U1
 U 1 1 5DDA6115
 P 1400 10100
 F 0 "U1" H 850 10500 50  0000 C CNN
@@ -837,7 +837,7 @@ $EndComp
 Wire Wire Line
 	1950 8550 1800 8550
 $Comp
-L UPduino-rescue:W25Q32JVSS-Memory_Flash U5
+L UPduino-rescue:W25Q32JVSS-Memory_Flash-UPduino-rescue U5
 U 1 1 5DF49E9E
 P 7400 5150
 F 0 "U5" H 7550 5650 50  0000 C CNN
@@ -2348,7 +2348,7 @@ Wire Wire Line
 Text Notes 4700 10750 0    100  ~ 20
 TODO:\n- Change LDO’s to be smaller/cheaper if needed\n- Finalize programming scheme\n- Finalize header pinout
 $Comp
-L UPduino-rescue:Fiducial-Mechanical FID1
+L UPduino-rescue:Fiducial-Mechanical-UPduino-rescue FID1
 U 1 1 5F1335B5
 P 10000 10700
 F 0 "FID1" H 10085 10746 50  0000 L CNN
@@ -2359,7 +2359,7 @@ F 3 "~" H 10000 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino-rescue:Fiducial-Mechanical FID3
+L UPduino-rescue:Fiducial-Mechanical-UPduino-rescue FID3
 U 1 1 5F133F02
 P 10500 10700
 F 0 "FID3" H 10585 10746 50  0000 L CNN
@@ -2370,7 +2370,7 @@ F 3 "~" H 10500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino-rescue:Fiducial-Mechanical FID5
+L UPduino-rescue:Fiducial-Mechanical-UPduino-rescue FID5
 U 1 1 5F134348
 P 11100 10700
 F 0 "FID5" H 11185 10746 50  0000 L CNN
@@ -2381,7 +2381,7 @@ F 3 "~" H 11100 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino-rescue:Fiducial-Mechanical FID2
+L UPduino-rescue:Fiducial-Mechanical-UPduino-rescue FID2
 U 1 1 5F136355
 P 10000 10900
 F 0 "FID2" H 10085 10946 50  0000 L CNN
@@ -2392,7 +2392,7 @@ F 3 "~" H 10000 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino-rescue:Fiducial-Mechanical FID4
+L UPduino-rescue:Fiducial-Mechanical-UPduino-rescue FID4
 U 1 1 5F13635B
 P 10500 10900
 F 0 "FID4" H 10585 10946 50  0000 L CNN
@@ -2403,7 +2403,7 @@ F 3 "~" H 10500 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino-rescue:Fiducial-Mechanical FID6
+L UPduino-rescue:Fiducial-Mechanical-UPduino-rescue FID6
 U 1 1 5F136361
 P 11100 10900
 F 0 "FID6" H 11185 10946 50  0000 L CNN
