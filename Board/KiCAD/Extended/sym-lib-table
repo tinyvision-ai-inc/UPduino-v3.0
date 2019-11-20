@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name UPduino-rescue)(type Legacy)(uri ${KIPRJMOD}/UPduino-rescue.lib)(options "")(descr ""))
+  (lib (name "TC7MPB9327FK(EL)")(type Legacy)(uri "${KIPRJMOD}/TC7MPB9327FK(EL).lib")(options "")(descr ""))
+)
