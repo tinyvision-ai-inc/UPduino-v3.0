@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name UPduino-rescue)(type Legacy)(uri ${KIPRJMOD}/UPduino-rescue.lib)(options "")(descr ""))
-)
