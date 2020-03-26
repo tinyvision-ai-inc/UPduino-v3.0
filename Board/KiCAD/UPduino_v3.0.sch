@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L UPduino_v3.0-rescue:ICE40UP5K-SG48ITR-FPGA_Lattice-UPduino-rescue-UPduino_v3.0-rescue U2
+L UPduino_v3.0:ICE40UP5K-SG48ITR-FPGA_Lattice U2
 U 1 1 5DD1F79B
 P 1800 2500
 F 0 "U2" H 1500 1300 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 1400 3500 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:ICE40UP5K-SG48ITR-FPGA_Lattice-UPduino-rescue-UPduino_v3.0-rescue U2
+L UPduino_v3.0:ICE40UP5K-SG48ITR-FPGA_Lattice U2
 U 3 1 5DD25432
 P 6300 2100
 F 0 "U2" H 6000 1450 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 5900 3100 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:ICE40UP5K-SG48ITR-FPGA_Lattice-UPduino-rescue-UPduino_v3.0-rescue U2
+L UPduino_v3.0:ICE40UP5K-SG48ITR-FPGA_Lattice U2
 U 4 1 5DD28AF8
 P 2000 4950
 F 0 "U2" V 2367 4950 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 1600 5950 50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR030
+L UPduino_v3.0:power_GND #PWR030
 U 1 1 5DD309CB
 P 2450 5000
 F 0 "#PWR030" H 2450 4750 50  0001 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 2450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR016
+L UPduino_v3.0:power_+3.3V #PWR016
 U 1 1 5DD36510
 P 3650 1250
 F 0 "#PWR016" H 3650 1100 50  0001 C CNN
@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2600 5250 2600
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C5
+L UPduino_v3.0:Device_C C5
 U 1 1 5DD4BB29
 P 2200 1450
 F 0 "C5" H 2315 1496 50  0000 L CNN
@@ -165,7 +165,7 @@ F 4 "C1005X5R0J104K050BA" H 2200 1450 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C14
+L UPduino_v3.0:Device_C C14
 U 1 1 5DD4C978
 P 4200 1400
 F 0 "C14" H 4315 1446 50  0000 L CNN
@@ -176,7 +176,7 @@ F 3 "~" H 4200 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C6
+L UPduino_v3.0:Device_C C6
 U 1 1 5DD4DA90
 P 6800 1450
 F 0 "C6" H 6915 1496 50  0000 L CNN
@@ -187,7 +187,7 @@ F 3 "~" H 6800 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR018
+L UPduino_v3.0:power_GND #PWR018
 U 1 1 5DD4E250
 P 6800 1600
 F 0 "#PWR018" H 6800 1350 50  0001 C CNN
@@ -198,7 +198,7 @@ F 3 "" H 6800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR017
+L UPduino_v3.0:power_GND #PWR017
 U 1 1 5DD4E97F
 P 2350 1600
 F 0 "#PWR017" H 2350 1350 50  0001 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 2350 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR031
+L UPduino_v3.0:power_GND #PWR031
 U 1 1 5DD4EDA0
 P 4200 1550
 F 0 "#PWR031" H 4200 1300 50  0001 C CNN
@@ -239,7 +239,7 @@ CDONE
 Text Label 2500 1800 0    50   ~ 0
 CRESET_N
 $Comp
-L UPduino_v3.0-rescue:FT232H-Interface_USB-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue U3
+L UPduino_v3.0:Interface_USB_FT232H U3
 U 1 1 5DD6AB7D
 P 3800 8850
 F 0 "U3" H 4250 10400 50  0000 C CNN
@@ -250,7 +250,7 @@ F 3 "http://www.ftdichip.com/Products/ICs/FT232H.htm" H 3800 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR019
+L UPduino_v3.0:power_GND #PWR019
 U 1 1 5DD7A623
 P 3850 10500
 F 0 "#PWR019" H 3850 10250 50  0001 C CNN
@@ -261,7 +261,7 @@ F 3 "" H 3850 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:ASDMB-xxxMHz-Oscillator-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue U4
+L UPduino_v3.0:ASDMB-xxxMHz-Oscillator U4
 U 1 1 5DD7B677
 P 8800 1550
 F 0 "U4" H 9000 1950 50  0000 L CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 8350 5600 8350
 $Comp
-L UPduino_v3.0-rescue:USB_B_Micro-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue J1
+L UPduino_v3.0:Connector_USB_B_Micro J1
 U 1 1 5DD8B9B5
 P 1050 8250
 F 0 "J1" H 1107 8717 50  0000 C CNN
@@ -295,7 +295,7 @@ F 3 "~" H 1200 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR01
+L UPduino_v3.0:power_GND #PWR01
 U 1 1 5DD8E96D
 P 1000 8750
 F 0 "#PWR01" H 1000 8500 50  0001 C CNN
@@ -317,7 +317,7 @@ Connection ~ 1000 8700
 Wire Wire Line
 	1000 8700 1050 8700
 $Comp
-L UPduino_v3.0-rescue:93LCxxBxxOT-Memory_EEPROM-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue U1
+L UPduino_v3.0:93LCxxBxxOT-Memory_EEPROM U1
 U 1 1 5DDA6115
 P 1400 10100
 F 0 "U1" H 1125 10400 50  0000 C CNN
@@ -328,7 +328,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1400 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR03
+L UPduino_v3.0:power_GND #PWR03
 U 1 1 5DDA7A1B
 P 1400 10450
 F 0 "#PWR03" H 1400 10200 50  0001 C CNN
@@ -353,7 +353,7 @@ EE_CLK
 Text Label 2600 9150 0    50   ~ 0
 EE_DAT
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR02
+L UPduino_v3.0:power_+3.3V #PWR02
 U 1 1 5DDC304A
 P 1400 9500
 F 0 "#PWR02" H 1400 9350 50  0001 C CNN
@@ -372,7 +372,7 @@ EE_CS
 Text Label 1950 10100 0    50   ~ 0
 EE_DAT
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R1
+L UPduino_v3.0:Device_R_Small R1
 U 1 1 5DDD2AEB
 P 2000 10200
 F 0 "R1" V 2100 10100 50  0000 C CNN
@@ -389,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 10200 2200 10100
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR046
+L UPduino_v3.0:power_GND #PWR046
 U 1 1 5DDE5D17
 P 8900 1900
 F 0 "#PWR046" H 8900 1650 50  0001 C CNN
@@ -402,7 +402,7 @@ $EndComp
 Wire Wire Line
 	8900 1850 8900 1900
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C18
+L UPduino_v3.0:Device_C C18
 U 1 1 5DE045C0
 P 8050 1250
 F 0 "C18" H 8165 1296 50  0000 L CNN
@@ -413,7 +413,7 @@ F 3 "~" H 8050 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR040
+L UPduino_v3.0:power_GND #PWR040
 U 1 1 5DE0AD58
 P 8050 1400
 F 0 "#PWR040" H 8050 1150 50  0001 C CNN
@@ -428,7 +428,7 @@ Wire Wire Line
 Text Label 9350 1550 0    50   ~ 0
 CLK_12M_FT
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R10
+L UPduino_v3.0:Device_R_Small R10
 U 1 1 5DE15BAD
 P 8250 1700
 F 0 "R10" H 8191 1654 50  0000 R CNN
@@ -440,7 +440,7 @@ F 3 "~" H 8250 1700 50  0001 C CNN
 $EndComp
 Connection ~ 8900 1900
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C1
+L UPduino_v3.0:Device_C C1
 U 1 1 5DE3F6DD
 P 2100 7800
 F 0 "C1" H 2215 7846 50  0000 L CNN
@@ -451,7 +451,7 @@ F 3 "~" H 2100 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR04
+L UPduino_v3.0:power_GND #PWR04
 U 1 1 5DE4E128
 P 2100 7950
 F 0 "#PWR04" H 2100 7700 50  0001 C CNN
@@ -483,7 +483,7 @@ Connection ~ 3900 7000
 Wire Wire Line
 	3900 7000 4000 7000
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C7
+L UPduino_v3.0:Device_C C7
 U 1 1 5DE6AAC4
 P 4500 7150
 F 0 "C7" H 4615 7196 50  0000 L CNN
@@ -494,7 +494,7 @@ F 3 "~" H 4500 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C8
+L UPduino_v3.0:Device_C C8
 U 1 1 5DE6B381
 P 4900 7150
 F 0 "C8" H 5015 7196 50  0000 L CNN
@@ -505,7 +505,7 @@ F 3 "~" H 4900 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C9
+L UPduino_v3.0:Device_C C9
 U 1 1 5DE6B84A
 P 5300 7150
 F 0 "C9" H 5415 7196 50  0000 L CNN
@@ -516,7 +516,7 @@ F 3 "~" H 5300 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR021
+L UPduino_v3.0:power_GND #PWR021
 U 1 1 5DE6BE10
 P 4900 7350
 F 0 "#PWR021" H 4900 7100 50  0001 C CNN
@@ -543,7 +543,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 7350 4900 7300
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR020
+L UPduino_v3.0:power_+3.3V #PWR020
 U 1 1 5DE7A862
 P 4500 7000
 F 0 "#PWR020" H 4500 6850 50  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 4500 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R3
+L UPduino_v3.0:Device_R_Small R3
 U 1 1 5DE7AF53
 P 2600 8750
 F 0 "R3" V 2500 8650 50  0000 C CNN
@@ -565,7 +565,7 @@ F 3 "~" H 2600 8750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR08
+L UPduino_v3.0:power_+3.3V #PWR08
 U 1 1 5DE7D656
 P 1800 8550
 F 0 "#PWR08" H 1800 8400 50  0001 C CNN
@@ -582,7 +582,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 8750 2300 8800
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR07
+L UPduino_v3.0:power_GND #PWR07
 U 1 1 5DE8F573
 P 2300 8800
 F 0 "#PWR07" H 2300 8550 50  0001 C CNN
@@ -631,7 +631,7 @@ Connection ~ 3850 10350
 Wire Wire Line
 	3850 10350 3900 10350
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR014
+L UPduino_v3.0:power_GND #PWR014
 U 1 1 5DEA05C2
 P 2800 10000
 F 0 "#PWR014" H 2800 9750 50  0001 C CNN
@@ -657,7 +657,7 @@ Text Label 5250 8350 0    50   ~ 0
 CRESET_N
 Connection ~ 2100 7650
 $Comp
-L UPduino_v3.0-rescue:C_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C4
+L UPduino_v3.0:Device_C_Small C4
 U 1 1 5DEB7707
 P 2650 8050
 F 0 "C4" V 2700 8150 50  0000 C CNN
@@ -668,7 +668,7 @@ F 3 "~" H 2650 8050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR09
+L UPduino_v3.0:power_GND #PWR09
 U 1 1 5DEB8BD2
 P 2500 8050
 F 0 "#PWR09" H 2500 7800 50  0001 C CNN
@@ -685,7 +685,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 7950 2900 7950
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR012
+L UPduino_v3.0:power_+3.3V #PWR012
 U 1 1 5DECEE89
 P 2750 7850
 F 0 "#PWR012" H 2750 7700 50  0001 C CNN
@@ -698,7 +698,7 @@ $EndComp
 Wire Wire Line
 	2750 7850 2900 7850
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C2
+L UPduino_v3.0:Device_C C2
 U 1 1 5DEDDD8E
 P 2150 7150
 F 0 "C2" H 2265 7196 50  0000 L CNN
@@ -709,7 +709,7 @@ F 3 "~" H 2150 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR06
+L UPduino_v3.0:power_GND #PWR06
 U 1 1 5DEDF1BA
 P 2150 7300
 F 0 "#PWR06" H 2150 7050 50  0001 C CNN
@@ -722,7 +722,7 @@ $EndComp
 Wire Wire Line
 	2150 7000 2150 6950
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R2
+L UPduino_v3.0:Device_R_Small R2
 U 1 1 5DF04286
 P 2050 8550
 F 0 "R2" V 2000 8400 50  0000 C CNN
@@ -735,7 +735,7 @@ $EndComp
 Wire Wire Line
 	1950 8550 1800 8550
 $Comp
-L UPduino_v3.0-rescue:W25Q32JVSS-Memory_Flash-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue U5
+L UPduino_v3.0:W25Q32JVSS-Memory_Flash U5
 U 1 1 5DF49E9E
 P 7400 5150
 F 0 "U5" H 7550 5650 50  0000 C CNN
@@ -746,7 +746,7 @@ F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR042
+L UPduino_v3.0:power_GND #PWR042
 U 1 1 5DF4ADA4
 P 7400 5600
 F 0 "#PWR042" H 7400 5350 50  0001 C CNN
@@ -757,7 +757,7 @@ F 3 "" H 7400 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR041
+L UPduino_v3.0:power_+3.3V #PWR041
 U 1 1 5DF4B33E
 P 7400 4650
 F 0 "#PWR041" H 7400 4500 50  0001 C CNN
@@ -772,7 +772,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 5550 7400 5600
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C17
+L UPduino_v3.0:Device_C C17
 U 1 1 5DF6EAF1
 P 5950 4800
 F 0 "C17" H 6065 4846 50  0000 L CNN
@@ -783,7 +783,7 @@ F 3 "~" H 5950 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR038
+L UPduino_v3.0:power_GND #PWR038
 U 1 1 5DF6EAF7
 P 5950 4950
 F 0 "#PWR038" H 5950 4700 50  0001 C CNN
@@ -806,7 +806,7 @@ ICE_SS
 Text Label 6400 5250 0    50   ~ 0
 ICE_SCK
 $Comp
-L UPduino_v3.0-rescue:Ferrite_Bead_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue FB1
+L UPduino_v3.0:Device_Ferrite_Bead_Small FB1
 U 1 1 5DFA2FE4
 P 5850 6650
 F 0 "FB1" V 6000 6650 50  0000 C CNN
@@ -817,7 +817,7 @@ F 3 "~" H 5850 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C10
+L UPduino_v3.0:Device_C C10
 U 1 1 5DFA3726
 P 3950 4900
 F 0 "C10" H 4065 4946 50  0000 L CNN
@@ -830,7 +830,7 @@ $EndComp
 Text Label 4600 4750 0    50   ~ 0
 VCC_PLL
 $Comp
-L UPduino_v3.0-rescue:Ferrite_Bead_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue FB2
+L UPduino_v3.0:Device_Ferrite_Bead_Small FB2
 U 1 1 5DFA6EFF
 P 5850 7200
 F 0 "FB2" V 5700 7200 50  0000 C CNN
@@ -857,7 +857,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6650 5650 7000
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C12
+L UPduino_v3.0:Device_C C12
 U 1 1 5DFDA664
 P 6250 6800
 F 0 "C12" H 6365 6846 50  0000 L CNN
@@ -869,7 +869,7 @@ F 3 "~" H 6250 6800 50  0001 C CNN
 $EndComp
 Connection ~ 6250 6650
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C13
+L UPduino_v3.0:Device_C C13
 U 1 1 5DFDACE4
 P 6250 7350
 F 0 "C13" H 6365 7396 50  0000 L CNN
@@ -881,7 +881,7 @@ F 3 "~" H 6250 7350 50  0001 C CNN
 $EndComp
 Connection ~ 6250 7200
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR029
+L UPduino_v3.0:power_GND #PWR029
 U 1 1 5DFDB0F7
 P 6250 7500
 F 0 "#PWR029" H 6250 7250 50  0001 C CNN
@@ -892,7 +892,7 @@ F 3 "" H 6250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR028
+L UPduino_v3.0:power_GND #PWR028
 U 1 1 5DFDB507
 P 6250 6950
 F 0 "#PWR028" H 6250 6700 50  0001 C CNN
@@ -907,7 +907,7 @@ V_PHY
 Text Label 6550 7200 2    50   ~ 0
 V_PLL
 $Comp
-L UPduino_v3.0-rescue:+1V2-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR022
+L UPduino_v3.0:power_+1V2 #PWR022
 U 1 1 5E01E8B5
 P 3250 4750
 F 0 "#PWR022" H 3250 4600 50  0001 C CNN
@@ -918,7 +918,7 @@ F 3 "" H 3250 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R6
+L UPduino_v3.0:Device_R R6
 U 1 1 5E01F661
 P 3600 4750
 F 0 "R6" V 3393 4750 50  0000 C CNN
@@ -929,7 +929,7 @@ F 3 "~" H 3600 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR025
+L UPduino_v3.0:power_GND #PWR025
 U 1 1 5E020045
 P 3950 5050
 F 0 "#PWR025" H 3950 4800 50  0001 C CNN
@@ -940,7 +940,7 @@ F 3 "" H 3950 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C11
+L UPduino_v3.0:Device_C C11
 U 1 1 5E02060F
 P 4400 4900
 F 0 "C11" H 4515 4946 50  0000 L CNN
@@ -951,7 +951,7 @@ F 3 "~" H 4400 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR027
+L UPduino_v3.0:power_GND #PWR027
 U 1 1 5E020AEF
 P 4400 5050
 F 0 "#PWR027" H 4400 4800 50  0001 C CNN
@@ -972,7 +972,7 @@ Connection ~ 4400 4750
 Wire Wire Line
 	4400 4750 4600 4750
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR032
+L UPduino_v3.0:power_+3.3V #PWR032
 U 1 1 5E0351A1
 P 2100 5650
 F 0 "#PWR032" H 2100 5500 50  0001 C CNN
@@ -983,7 +983,7 @@ F 3 "" H 2100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C16
+L UPduino_v3.0:Device_C C16
 U 1 1 5E03594A
 P 2200 5800
 F 0 "C16" H 2315 5846 50  0000 L CNN
@@ -994,7 +994,7 @@ F 3 "~" H 2200 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR036
+L UPduino_v3.0:power_GND #PWR036
 U 1 1 5E0363D3
 P 2200 5950
 F 0 "#PWR036" H 2200 5700 50  0001 C CNN
@@ -1012,7 +1012,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5650 2800 5650
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C15
+L UPduino_v3.0:Device_C C15
 U 1 1 5E0548A3
 P 1500 5800
 F 0 "C15" H 1615 5846 50  0000 L CNN
@@ -1023,7 +1023,7 @@ F 3 "~" H 1500 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR035
+L UPduino_v3.0:power_GND #PWR035
 U 1 1 5E0548A9
 P 1500 5950
 F 0 "#PWR035" H 1500 5700 50  0001 C CNN
@@ -1042,7 +1042,7 @@ FLASH_MISO
 Text Label 2500 3100 0    50   ~ 0
 FLASH_MOSI
 $Comp
-L UPduino_v3.0-rescue:LED_ALT-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue D1
+L UPduino_v3.0:Device_LED_ALT D1
 U 1 1 5E072868
 P 11700 6100
 F 0 "D1" V 11739 5982 50  0000 R CNN
@@ -1053,7 +1053,7 @@ F 3 "~" H 11700 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR033
+L UPduino_v3.0:power_GND #PWR033
 U 1 1 5E073B3B
 P 11700 6250
 F 0 "#PWR033" H 11700 6000 50  0001 C CNN
@@ -1064,7 +1064,7 @@ F 3 "" H 11700 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R7
+L UPduino_v3.0:Device_R R7
 U 1 1 5E0742C5
 P 11700 5800
 F 0 "R7" H 11630 5754 50  0000 R CNN
@@ -1082,7 +1082,7 @@ LED_G
 Text Label 750  3500 0    50   ~ 0
 LED_B
 $Comp
-L UPduino_v3.0-rescue:LED_ARGB-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue D3
+L UPduino_v3.0:Device_LED_ARGB D3
 U 1 1 5E0817D1
 P 11250 4900
 F 0 "D3" H 11250 4433 50  0000 C CNN
@@ -1093,7 +1093,7 @@ F 3 "~" H 11250 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR043
+L UPduino_v3.0:power_+3.3V #PWR043
 U 1 1 5E0C2F10
 P 10750 4450
 F 0 "#PWR043" H 10750 4300 50  0001 C CNN
@@ -1108,7 +1108,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 4900 11050 4900
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R5
+L UPduino_v3.0:Device_R R5
 U 1 1 5E0FA1FF
 P 2950 1500
 F 0 "R5" H 2880 1454 50  0000 R CNN
@@ -1136,7 +1136,7 @@ IOB_25B_G3
 Text Label 7950 4950 0    50   ~ 0
 FLASH_MOSI
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R14
+L UPduino_v3.0:Device_R R14
 U 1 1 5E113B47
 P 8650 4750
 F 0 "R14" H 8580 4704 50  0000 R CNN
@@ -1147,7 +1147,7 @@ F 3 "~" H 8650 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R15
+L UPduino_v3.0:Device_R R15
 U 1 1 5E113D99
 P 8950 4750
 F 0 "R15" H 8880 4704 50  0000 R CNN
@@ -1162,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5350 8950 5350
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R9
+L UPduino_v3.0:Device_R R9
 U 1 1 5E138F70
 P 6800 4800
 F 0 "R9" H 6730 4754 50  0000 R CNN
@@ -1185,7 +1185,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5250 8650 5250
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R8
+L UPduino_v3.0:Device_R R8
 U 1 1 5E15B185
 P 6400 4800
 F 0 "R8" H 6330 4754 50  0000 R CNN
@@ -1201,7 +1201,7 @@ Connection ~ 6800 4650
 Wire Wire Line
 	6400 4950 6400 5050
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR047
+L UPduino_v3.0:power_+3.3V #PWR047
 U 1 1 5E1A1852
 P 8800 4600
 F 0 "#PWR047" H 8800 4450 50  0001 C CNN
@@ -1249,7 +1249,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 3400 13900 3400
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR055
+L UPduino_v3.0:power_+3.3V #PWR055
 U 1 1 5E1EDCBC
 P 14600 1900
 F 0 "#PWR055" H 14600 1750 50  0001 C CNN
@@ -1260,7 +1260,7 @@ F 3 "" H 14600 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR056
+L UPduino_v3.0:power_GND #PWR056
 U 1 1 5E208933
 P 14600 2000
 F 0 "#PWR056" H 14600 1750 50  0001 C CNN
@@ -1301,7 +1301,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 7500 9300 7500
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR059
+L UPduino_v3.0:power_GND #PWR059
 U 1 1 5E280FC6
 P 12700 1750
 F 0 "#PWR059" H 12700 1500 50  0001 C CNN
@@ -1378,7 +1378,7 @@ IOB_0A
 Text Label 11900 3350 0    50   ~ 0
 IOB_6A
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C23
+L UPduino_v3.0:Device_C C23
 U 1 1 5E2E49F7
 P 12400 3900
 F 0 "C23" H 12515 3946 50  0000 L CNN
@@ -1389,7 +1389,7 @@ F 3 "~" H 12400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR058
+L UPduino_v3.0:power_GND #PWR058
 U 1 1 5E2E5C0C
 P 12400 4050
 F 0 "#PWR058" H 12400 3800 50  0001 C CNN
@@ -1400,7 +1400,7 @@ F 3 "" H 12400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C21
+L UPduino_v3.0:Device_C C21
 U 1 1 5E2ECB50
 P 13600 5400
 F 0 "C21" H 13715 5446 50  0000 L CNN
@@ -1411,7 +1411,7 @@ F 3 "~" H 13600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR051
+L UPduino_v3.0:power_GND #PWR051
 U 1 1 5E2ECB56
 P 13150 5650
 F 0 "#PWR051" H 13150 5400 50  0001 C CNN
@@ -1422,7 +1422,7 @@ F 3 "" H 13150 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR053
+L UPduino_v3.0:power_+3.3V #PWR053
 U 1 1 5E33CCFE
 P 13750 5250
 F 0 "#PWR053" H 13750 5100 50  0001 C CNN
@@ -1433,7 +1433,7 @@ F 3 "" H 13750 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+1V2-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR054
+L UPduino_v3.0:power_+1V2 #PWR054
 U 1 1 5E33D673
 P 15650 5250
 F 0 "#PWR054" H 15650 5100 50  0001 C CNN
@@ -1525,7 +1525,7 @@ LED_G
 Text Label 11550 5100 0    50   ~ 0
 LED_R
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C24
+L UPduino_v3.0:Device_C C24
 U 1 1 5E4C6622
 P 10750 5050
 F 0 "C24" H 10865 5096 50  0000 L CNN
@@ -1536,7 +1536,7 @@ F 3 "~" H 10750 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR060
+L UPduino_v3.0:power_GND #PWR060
 U 1 1 5E4C70AB
 P 10750 5200
 F 0 "#PWR060" H 10750 4950 50  0001 C CNN
@@ -1556,7 +1556,7 @@ USB_M
 Text Label 8600 7500 0    50   ~ 0
 USB_P
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R22
+L UPduino_v3.0:Device_R R22
 U 1 1 5E5D05A4
 P 9150 7500
 F 0 "R22" V 9050 7400 50  0000 C CNN
@@ -1567,7 +1567,7 @@ F 3 "~" H 9150 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R23
+L UPduino_v3.0:Device_R R23
 U 1 1 5E5D1111
 P 9150 7650
 F 0 "R23" V 9250 7550 50  0000 C CNN
@@ -1582,7 +1582,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 7500 8900 7500
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R21
+L UPduino_v3.0:Device_R R21
 U 1 1 5E66D3C7
 P 8900 7350
 F 0 "R21" H 9100 7250 50  0000 C CNN
@@ -1621,7 +1621,7 @@ Wire Wire Line
 	5950 4650 6400 4650
 Connection ~ 6400 4650
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R24
+L UPduino_v3.0:Device_R R24
 U 1 1 5E89E36B
 P 9250 5250
 F 0 "R24" V 9457 5250 50  0000 C CNN
@@ -1632,7 +1632,7 @@ F 3 "~" H 9250 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R25
+L UPduino_v3.0:Device_R R25
 U 1 1 5E89EBFA
 P 9250 5350
 F 0 "R25" V 9050 5350 50  0000 C CNN
@@ -1727,7 +1727,7 @@ FLASH_MISO
 Text Label 5250 8250 0    50   ~ 0
 CDONE
 $Comp
-L UPduino_v3.0-rescue:Ferrite_Bead_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue FB3
+L UPduino_v3.0:Device_Ferrite_Bead_Small FB3
 U 1 1 5EDE7262
 P 1600 8050
 F 0 "FB3" V 1650 7900 50  0000 C CNN
@@ -1740,7 +1740,7 @@ $EndComp
 Wire Wire Line
 	1350 8050 1450 8050
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C25
+L UPduino_v3.0:Device_C C25
 U 1 1 5EE044A5
 P 1450 7700
 F 0 "C25" H 1565 7746 50  0000 L CNN
@@ -1751,7 +1751,7 @@ F 3 "~" H 1450 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR037
+L UPduino_v3.0:power_GND #PWR037
 U 1 1 5EE04D1D
 P 1200 7500
 F 0 "#PWR037" H 1200 7250 50  0001 C CNN
@@ -1771,7 +1771,7 @@ Connection ~ 1450 8050
 Wire Wire Line
 	1450 8050 1500 8050
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C28
+L UPduino_v3.0:Device_C C28
 U 1 1 5EE5C0BB
 P 6750 7350
 F 0 "C28" H 6865 7396 50  0000 L CNN
@@ -1782,7 +1782,7 @@ F 3 "~" H 6750 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C27
+L UPduino_v3.0:Device_C C27
 U 1 1 5EE5C8D0
 P 6750 6800
 F 0 "C27" H 6865 6846 50  0000 L CNN
@@ -1803,7 +1803,7 @@ Wire Wire Line
 	6750 7500 6250 7500
 Connection ~ 6250 7500
 $Comp
-L UPduino_v3.0-rescue:C_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C26
+L UPduino_v3.0:Device_C_Small C26
 U 1 1 5EF2C2B9
 P 2300 8650
 F 0 "C26" H 2450 8700 50  0000 C CNN
@@ -1820,7 +1820,7 @@ Connection ~ 2300 8550
 Wire Wire Line
 	2300 8550 2900 8550
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R4
+L UPduino_v3.0:Device_R_Small R4
 U 1 1 5EF8A5CB
 P 1650 9700
 F 0 "R4" V 1600 9550 50  0000 C CNN
@@ -1848,7 +1848,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 10000 1900 10000
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C3
+L UPduino_v3.0:Device_C C3
 U 1 1 5F00AFEA
 P 800 10550
 F 0 "C3" H 915 10596 50  0000 L CNN
@@ -1859,7 +1859,7 @@ F 3 "~" H 800 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR010
+L UPduino_v3.0:power_+3.3V #PWR010
 U 1 1 5F00C130
 P 800 10400
 F 0 "#PWR010" H 800 10250 50  0001 C CNN
@@ -1870,7 +1870,7 @@ F 3 "" H 800 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR011
+L UPduino_v3.0:power_GND #PWR011
 U 1 1 5F00C7BC
 P 800 10700
 F 0 "#PWR011" H 800 10450 50  0001 C CNN
@@ -1893,7 +1893,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 8150 4700 8150
 $Comp
-L UPduino_v3.0-rescue:Fiducial-Mechanical-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue FID1
+L UPduino_v3.0:Fiducial-Mechanical FID1
 U 1 1 5F1335B5
 P 10000 10550
 F 0 "FID1" H 10085 10596 50  0000 L CNN
@@ -1904,7 +1904,7 @@ F 3 "~" H 10000 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Fiducial-Mechanical-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue FID3
+L UPduino_v3.0:Fiducial-Mechanical FID3
 U 1 1 5F133F02
 P 10500 10550
 F 0 "FID3" H 10585 10596 50  0000 L CNN
@@ -1915,7 +1915,7 @@ F 3 "~" H 10500 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Fiducial-Mechanical-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue FID5
+L UPduino_v3.0:Fiducial-Mechanical FID5
 U 1 1 5F134348
 P 11100 10550
 F 0 "FID5" H 11185 10596 50  0000 L CNN
@@ -1926,7 +1926,7 @@ F 3 "~" H 11100 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Fiducial-Mechanical-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue FID2
+L UPduino_v3.0:Fiducial-Mechanical FID2
 U 1 1 5F136355
 P 10000 10900
 F 0 "FID2" H 10085 10946 50  0000 L CNN
@@ -1937,7 +1937,7 @@ F 3 "~" H 10000 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Fiducial-Mechanical-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue FID4
+L UPduino_v3.0:Fiducial-Mechanical FID4
 U 1 1 5F13635B
 P 10500 10900
 F 0 "FID4" H 10585 10946 50  0000 L CNN
@@ -1948,7 +1948,7 @@ F 3 "~" H 10500 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Fiducial-Mechanical-UPduino-rescue-UPduino-rescue-UPduino_v3.0-rescue FID6
+L UPduino_v3.0:Fiducial-Mechanical FID6
 U 1 1 5F136361
 P 11100 10900
 F 0 "FID6" H 11185 10946 50  0000 L CNN
@@ -1959,7 +1959,7 @@ F 3 "~" H 11100 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:MountingHole-Mechanical-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue H2
+L UPduino_v3.0:Mechanical_MountingHole H2
 U 1 1 5F176C8D
 P 11100 9775
 F 0 "H2" H 11200 9821 50  0000 L CNN
@@ -1970,7 +1970,7 @@ F 3 "~" H 11100 9775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:MountingHole-Mechanical-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue H3
+L UPduino_v3.0:Mechanical_MountingHole H3
 U 1 1 5F177420
 P 10375 10150
 F 0 "H3" H 10475 10196 50  0000 L CNN
@@ -1981,7 +1981,7 @@ F 3 "~" H 10375 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:MountingHole-Mechanical-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue H4
+L UPduino_v3.0:Mechanical_MountingHole H4
 U 1 1 5F1779BA
 P 11075 10150
 F 0 "H4" H 11175 10196 50  0000 L CNN
@@ -1992,7 +1992,7 @@ F 3 "~" H 11075 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:MountingHole-Mechanical-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue H1
+L UPduino_v3.0:Mechanical_MountingHole H1
 U 1 1 5F177DDE
 P 10375 9800
 F 0 "H1" H 10475 9846 50  0000 L CNN
@@ -2003,7 +2003,7 @@ F 3 "~" H 10375 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Conn_01x24-Connector_Generic-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue J2
+L UPduino_v3.0:Connector_Generic_Conn_01x24 J2
 U 1 1 5DD508FC
 P 14950 2200
 F 0 "J2" H 15030 2192 50  0000 L CNN
@@ -2014,7 +2014,7 @@ F 3 "~" H 14950 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Conn_01x24-Connector_Generic-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue J3
+L UPduino_v3.0:Connector_Generic_Conn_01x24 J3
 U 1 1 5DD50A18
 P 12950 2150
 F 0 "J3" H 13029 2142 50  0000 L CNN
@@ -2039,7 +2039,7 @@ Wire Wire Line
 Text Label 10950 1250 0    50   ~ 0
 IOB_25B_G3
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR045
+L UPduino_v3.0:power_+3.3V #PWR045
 U 1 1 5E0DE2A0
 P 11700 5550
 F 0 "#PWR045" H 11700 5400 50  0001 C CNN
@@ -2056,7 +2056,7 @@ Wire Wire Line
 Text Label 11050 5950 0    50   ~ 0
 CDONE
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR013
+L UPduino_v3.0:power_+3.3V #PWR013
 U 1 1 5E11F7B4
 P 8050 1100
 F 0 "#PWR013" H 8050 950 50  0001 C CNN
@@ -2071,7 +2071,7 @@ FT_VCORE
 Wire Wire Line
 	12650 5350 12650 5250
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C19
+L UPduino_v3.0:Device_C C19
 U 1 1 5E22BA5B
 P 12650 5500
 F 0 "C19" H 12765 5546 50  0000 L CNN
@@ -2088,7 +2088,7 @@ Connection ~ 13150 5650
 Wire Wire Line
 	13150 5650 13600 5650
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C29
+L UPduino_v3.0:Device_C C29
 U 1 1 5E3089EE
 P 15500 5400
 F 0 "C29" H 15615 5446 50  0000 L CNN
@@ -2099,7 +2099,7 @@ F 3 "~" H 15500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR048
+L UPduino_v3.0:power_GND #PWR048
 U 1 1 5E3089F5
 P 15050 5650
 F 0 "#PWR048" H 15050 5400 50  0001 C CNN
@@ -2117,7 +2117,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 5250 14550 5250
 $Comp
-L UPduino_v3.0-rescue:AP2127K-1.2-Regulator_Linear-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue U7
+L UPduino_v3.0:AP2127K-1.2 U7
 U 1 1 5E308A06
 P 15050 5350
 F 0 "U7" H 15050 5700 50  0000 C CNN
@@ -2130,7 +2130,7 @@ $EndComp
 Wire Wire Line
 	14550 5350 14550 5250
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C20
+L UPduino_v3.0:Device_C C20
 U 1 1 5E308A11
 P 14550 5500
 F 0 "C20" H 14665 5546 50  0000 L CNN
@@ -2147,7 +2147,7 @@ Connection ~ 15050 5650
 Wire Wire Line
 	15050 5650 15500 5650
 $Comp
-L UPduino_v3.0-rescue:AP2127K-3.3-Regulator_Linear-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue U6
+L UPduino_v3.0:AP2127K-3.3 U6
 U 1 1 5E36DA72
 P 13150 5350
 F 0 "U6" H 13150 5692 50  0000 C CNN
@@ -2158,7 +2158,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2127.pdf" H 13150 5450 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:Conn_01x02-Connector_Generic-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue J4
+L UPduino_v3.0:Connector_Generic_Conn_01x02 J4
 U 1 1 5DD56EF3
 P 14925 3750
 F 0 "J4" H 15005 3742 50  0000 L CNN
@@ -2169,7 +2169,7 @@ F 3 "~" H 14925 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR063
+L UPduino_v3.0:power_GND #PWR063
 U 1 1 5DD56FED
 P 14725 3850
 F 0 "#PWR063" H 14725 3600 50  0001 C CNN
@@ -2186,7 +2186,7 @@ Text Label 1150 4950 0    50   ~ 0
 Text Label 1400 5650 0    50   ~ 0
 +1.2V_CORE
 $Comp
-L UPduino_v3.0-rescue:1N4148W-Diode-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue D2
+L UPduino_v3.0:Diode_1N4148W D2
 U 1 1 5DDBFCE1
 P 2550 5650
 F 0 "D2" H 2550 5867 50  0000 C CNN
@@ -2197,7 +2197,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2550 5650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C31
+L UPduino_v3.0:Device_C C31
 U 1 1 5DDC01B3
 P 2800 5800
 F 0 "C31" H 2915 5846 50  0000 L CNN
@@ -2208,7 +2208,7 @@ F 3 "~" H 2800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR052
+L UPduino_v3.0:power_GND #PWR052
 U 1 1 5DDC01BA
 P 2800 5950
 F 0 "#PWR052" H 2800 5700 50  0001 C CNN
@@ -2220,7 +2220,7 @@ F 3 "" H 2800 5950 50  0001 C CNN
 $EndComp
 Connection ~ 2800 5650
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R34
+L UPduino_v3.0:Device_R R34
 U 1 1 5DE282FB
 P 1200 5650
 F 0 "R34" V 993 5650 50  0000 C CNN
@@ -2231,7 +2231,7 @@ F 3 "~" H 1200 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+1V2-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR023
+L UPduino_v3.0:power_+1V2 #PWR023
 U 1 1 5DE283FB
 P 950 5650
 F 0 "#PWR023" H 950 5500 50  0001 C CNN
@@ -2246,7 +2246,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5650 1500 5650
 $Comp
-L UPduino_v3.0-rescue:+5VD-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR034
+L UPduino_v3.0:power_+5VD #PWR034
 U 1 1 5DE6FFA0
 P 1800 7650
 F 0 "#PWR034" H 1800 7500 50  0001 C CNN
@@ -2258,7 +2258,7 @@ F 3 "" H 1800 7650 50  0001 C CNN
 $EndComp
 Connection ~ 1800 7650
 $Comp
-L UPduino_v3.0-rescue:+5VD-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR064
+L UPduino_v3.0:power_+5VD #PWR064
 U 1 1 5DE702DA
 P 12300 5250
 F 0 "#PWR064" H 12300 5100 50  0001 C CNN
@@ -2269,7 +2269,7 @@ F 3 "" H 12300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+5VD-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR065
+L UPduino_v3.0:power_+5VD #PWR065
 U 1 1 5DE94B87
 P 14200 5250
 F 0 "#PWR065" H 14200 5100 50  0001 C CNN
@@ -2280,7 +2280,7 @@ F 3 "" H 14200 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R35
+L UPduino_v3.0:Device_R_Small R35
 U 1 1 5DEBD329
 P 2250 8250
 F 0 "R35" V 2200 8425 50  0000 C CNN
@@ -2291,7 +2291,7 @@ F 3 "~" H 2250 8250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R36
+L UPduino_v3.0:Device_R_Small R36
 U 1 1 5DEBDB7A
 P 2250 8350
 F 0 "R36" V 2200 8525 50  0000 C CNN
@@ -2318,7 +2318,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 8350 2900 8350
 $Comp
-L UPduino_v3.0-rescue:TC7MPB9327FK(EL)-TC7MPB9327FK(EL)-UPduino_v3.0-rescue-UPduino_v3.0-rescue S1
+L UPduino_v3.0:TC7MPB9327FK(EL)_TC7MPB9327FK(EL) S1
 U 1 1 5DE021E7
 P 12850 8050
 F 0 "S1" H 13450 8315 50  0000 C CNN
@@ -2335,7 +2335,7 @@ F 9 "TC7MPB9327FK(EL)" H 13900 7450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR068
+L UPduino_v3.0:power_GND #PWR068
 U 1 1 5DE47626
 P 13500 8950
 F 0 "#PWR068" H 13500 8700 50  0001 C CNN
@@ -2364,7 +2364,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 8550 12200 8550
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR067
+L UPduino_v3.0:power_+3.3V #PWR067
 U 1 1 5DFE8B55
 P 12800 8000
 F 0 "#PWR067" H 12800 7850 50  0001 C CNN
@@ -2375,7 +2375,7 @@ F 3 "" H 12800 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR069
+L UPduino_v3.0:power_+3.3V #PWR069
 U 1 1 5DFE8C22
 P 14100 8000
 F 0 "#PWR069" H 14100 7850 50  0001 C CNN
@@ -2396,7 +2396,7 @@ Wire Wire Line
 Text Label 12200 8550 0    50   ~ 0
 CRESET_N
 $Comp
-L UPduino_v3.0-rescue:R_Pack04-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue RN1
+L UPduino_v3.0:Device_R_Pack04 RN1
 U 1 1 5E036117
 P 15150 7700
 F 0 "RN1" V 14733 7700 50  0000 C CNN
@@ -2415,7 +2415,7 @@ ICE_MOSI
 Text Label 15450 7800 0    50   ~ 0
 ICE_MISO
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR070
+L UPduino_v3.0:power_+3.3V #PWR070
 U 1 1 5E0366A2
 P 14850 7500
 F 0 "#PWR070" H 14850 7350 50  0001 C CNN
@@ -2445,7 +2445,7 @@ Wire Wire Line
 Wire Wire Line
 	15350 7800 15450 7800
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C32
+L UPduino_v3.0:Device_C C32
 U 1 1 5E11172C
 P 14800 8200
 F 0 "C32" H 14915 8246 50  0000 L CNN
@@ -2456,7 +2456,7 @@ F 3 "~" H 14800 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR071
+L UPduino_v3.0:power_GND #PWR071
 U 1 1 5E15AF2C
 P 14800 8350
 F 0 "#PWR071" H 14800 8100 50  0001 C CNN
@@ -2469,7 +2469,7 @@ $EndComp
 Text Label 12200 8150 0    50   ~ 0
 FLASH_MOSI
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP1
+L UPduino_v3.0:Connector_TestPoint TP1
 U 1 1 5E1A9E50
 P 4800 8550
 F 0 "TP1" V 4800 8750 50  0000 L CNN
@@ -2480,7 +2480,7 @@ F 3 "~" H 5000 8550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP11
+L UPduino_v3.0:Connector_TestPoint TP11
 U 1 1 5E1AA337
 P 5500 7950
 F 0 "TP11" V 5500 8150 50  0000 L CNN
@@ -2491,7 +2491,7 @@ F 3 "~" H 5700 7950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP12
+L UPduino_v3.0:Connector_TestPoint TP12
 U 1 1 5E1AA431
 P 5500 8150
 F 0 "TP12" V 5500 8350 50  0000 L CNN
@@ -2502,7 +2502,7 @@ F 3 "~" H 5700 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP2
+L UPduino_v3.0:Connector_TestPoint TP2
 U 1 1 5E1AA50D
 P 4800 8650
 F 0 "TP2" V 4800 8850 50  0000 L CNN
@@ -2513,7 +2513,7 @@ F 3 "~" H 5000 8650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP3
+L UPduino_v3.0:Connector_TestPoint TP3
 U 1 1 5E1AA5E7
 P 4800 8750
 F 0 "TP3" V 4800 8950 50  0000 L CNN
@@ -2524,7 +2524,7 @@ F 3 "~" H 5000 8750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP4
+L UPduino_v3.0:Connector_TestPoint TP4
 U 1 1 5E1AA6C3
 P 4800 8850
 F 0 "TP4" V 4800 9050 50  0000 L CNN
@@ -2535,7 +2535,7 @@ F 3 "~" H 5000 8850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP5
+L UPduino_v3.0:Connector_TestPoint TP5
 U 1 1 5E1AA7A1
 P 4800 8950
 F 0 "TP5" V 4800 9150 50  0000 L CNN
@@ -2546,7 +2546,7 @@ F 3 "~" H 5000 8950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP6
+L UPduino_v3.0:Connector_TestPoint TP6
 U 1 1 5E1AA881
 P 4800 9050
 F 0 "TP6" V 4800 9250 50  0000 L CNN
@@ -2557,7 +2557,7 @@ F 3 "~" H 5000 9050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP7
+L UPduino_v3.0:Connector_TestPoint TP7
 U 1 1 5E1AA963
 P 4800 9150
 F 0 "TP7" V 4800 9350 50  0000 L CNN
@@ -2568,7 +2568,7 @@ F 3 "~" H 5000 9150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP8
+L UPduino_v3.0:Connector_TestPoint TP8
 U 1 1 5E1AAA47
 P 4800 9250
 F 0 "TP8" V 4800 9450 50  0000 L CNN
@@ -2579,7 +2579,7 @@ F 3 "~" H 5000 9250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP9
+L UPduino_v3.0:Connector_TestPoint TP9
 U 1 1 5E1AAB2D
 P 4800 9350
 F 0 "TP9" V 4800 9550 50  0000 L CNN
@@ -2590,7 +2590,7 @@ F 3 "~" H 5000 9350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP10
+L UPduino_v3.0:Connector_TestPoint TP10
 U 1 1 5E1AAC15
 P 4800 9450
 F 0 "TP10" V 4800 9650 50  0000 L CNN
@@ -2621,7 +2621,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 9450 4800 9450
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R18
+L UPduino_v3.0:Device_R_Small R18
 U 1 1 5E32EFC1
 P 1650 9600
 F 0 "R18" V 1600 9450 50  0000 C CNN
@@ -2647,7 +2647,7 @@ Connection ~ 1900 10000
 Wire Wire Line
 	1900 10000 2100 10000
 $Comp
-L UPduino_v3.0-rescue:R_Small-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R17
+L UPduino_v3.0:Device_R_Small R17
 U 1 1 5E3A990C
 P 1150 9600
 F 0 "R17" V 1100 9450 50  0000 C CNN
@@ -2673,7 +2673,7 @@ Wire Wire Line
 Text Label 2350 8550 0    50   ~ 0
 FT_RESET_N
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C33
+L UPduino_v3.0:Device_C C33
 U 1 1 5EA9B789
 P 12850 3900
 F 0 "C33" H 12965 3946 50  0000 L CNN
@@ -2684,7 +2684,7 @@ F 3 "~" H 12850 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR061
+L UPduino_v3.0:power_GND #PWR061
 U 1 1 5EA9B790
 P 12850 4050
 F 0 "#PWR061" H 12850 3800 50  0001 C CNN
@@ -2695,7 +2695,7 @@ F 3 "" H 12850 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR057
+L UPduino_v3.0:power_+3.3V #PWR057
 U 1 1 5EA9B796
 P 12850 3750
 F 0 "#PWR057" H 12850 3600 50  0001 C CNN
@@ -2706,7 +2706,7 @@ F 3 "" H 12850 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R27
+L UPduino_v3.0:Device_R R27
 U 1 1 5EB433FC
 P 14300 8800
 F 0 "R27" H 14125 8750 50  0000 C CNN
@@ -2731,7 +2731,7 @@ Connection ~ 1800 1300
 Wire Wire Line
 	2350 1200 2350 1300
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR05
+L UPduino_v3.0:power_+3.3V #PWR05
 U 1 1 5EBE879B
 P 1800 900
 F 0 "#PWR05" H 1800 750 50  0001 C CNN
@@ -2742,7 +2742,7 @@ F 3 "" H 1800 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R20
+L UPduino_v3.0:Device_R R20
 U 1 1 5EBE8A92
 P 6300 1050
 F 0 "R20" H 6450 1150 50  0000 C CNN
@@ -2753,7 +2753,7 @@ F 3 "~" H 6300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R26
+L UPduino_v3.0:Device_R R26
 U 1 1 5EBE8A99
 P 6800 1050
 F 0 "R26" H 6950 1150 50  0000 C CNN
@@ -2768,7 +2768,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 1200 6800 1300
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR026
+L UPduino_v3.0:power_+3.3V #PWR026
 U 1 1 5EBE8AA2
 P 6300 900
 F 0 "#PWR026" H 6300 750 50  0001 C CNN
@@ -2790,7 +2790,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 5050 1600 5050
 $Comp
-L UPduino_v3.0-rescue:+2V5-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR024
+L UPduino_v3.0:power_+2V5 #PWR024
 U 1 1 5DD33F6B
 P 1300 5050
 F 0 "#PWR024" H 1300 4900 50  0001 C CNN
@@ -2801,7 +2801,7 @@ F 3 "" H 1300 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+2V5-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR039
+L UPduino_v3.0:power_+2V5 #PWR039
 U 1 1 5E049442
 P 2900 5650
 F 0 "#PWR039" H 2900 5500 50  0001 C CNN
@@ -2838,7 +2838,7 @@ Wire Wire Line
 Text Notes 10250 7550 0    50   ~ 0
 Layout note:\nThese pins may be moved \nanywhere within Bank 1\nexcept the SPI pins or \npin 20
 $Comp
-L UPduino_v3.0-rescue:+5VD-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR0101
+L UPduino_v3.0:power_+5VD #PWR0101
 U 1 1 5EEBA86D
 P 14600 1800
 F 0 "#PWR0101" H 14600 1650 50  0001 C CNN
@@ -2849,7 +2849,7 @@ F 3 "" H 14600 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R19
+L UPduino_v3.0:Device_R R19
 U 1 1 5EB96AC4
 P 2350 1050
 F 0 "R19" H 2500 1150 50  0000 C CNN
@@ -2860,7 +2860,7 @@ F 3 "~" H 2350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R31
+L UPduino_v3.0:Device_R R31
 U 1 1 5DF82856
 P 1800 1050
 F 0 "R31" H 1950 1150 50  0000 C CNN
@@ -2929,7 +2929,7 @@ VIO_BANK_0_2
 Text Label 1450 7950 0    50   ~ 0
 V_USB
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR074
+L UPduino_v3.0:power_GND #PWR074
 U 1 1 5EA72FE3
 P 13300 4050
 F 0 "#PWR074" H 13300 3800 50  0001 C CNN
@@ -2940,7 +2940,7 @@ F 3 "" H 13300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C34
+L UPduino_v3.0:Device_C C34
 U 1 1 5EA72FDC
 P 13300 3900
 F 0 "C34" H 13415 3946 50  0000 L CNN
@@ -2951,7 +2951,7 @@ F 3 "~" H 13300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+5VD-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR0103
+L UPduino_v3.0:power_+5VD #PWR0103
 U 1 1 5DFDBBBD
 P 13300 3750
 F 0 "#PWR0103" H 13300 3600 50  0001 C CNN
@@ -2974,7 +2974,7 @@ Wire Notes Line
 Wire Notes Line
 	13425 975  12875 975 
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR0102
+L UPduino_v3.0:power_GND #PWR0102
 U 1 1 5E10DA72
 P 14600 1100
 F 0 "#PWR0102" H 14600 850 50  0001 C CNN
@@ -2985,7 +2985,7 @@ F 3 "" H 14600 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:ICE40UP5K-SG48ITR-FPGA_Lattice-UPduino-rescue-UPduino_v3.0-rescue U2
+L UPduino_v3.0:ICE40UP5K-SG48ITR-FPGA_Lattice U2
 U 2 1 5E18C89B
 P 3650 2500
 F 0 "U2" H 3650 1425 50  0000 C CNN
@@ -3005,7 +3005,7 @@ EE_DAT
 Text Notes 6700 10400 0    50   ~ 0
 Layout note:\nPlace these testpoints on the bottom of the board\non a 2.54mm grid.
 $Comp
-L UPduino_v3.0-rescue:+1V2-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR049
+L UPduino_v3.0:power_+1V2 #PWR049
 U 1 1 5E21218C
 P 6825 10650
 F 0 "#PWR049" H 6825 10500 50  0001 C CNN
@@ -3016,7 +3016,7 @@ F 3 "" H 6825 10650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP26
+L UPduino_v3.0:Connector_TestPoint TP26
 U 1 1 5E2131B4
 P 7950 10650
 F 0 "TP26" V 7904 10838 50  0000 L CNN
@@ -3027,7 +3027,7 @@ F 3 "~" H 8150 10650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP27
+L UPduino_v3.0:Connector_TestPoint TP27
 U 1 1 5E2134EB
 P 7950 10825
 F 0 "TP27" V 7904 11013 50  0000 L CNN
@@ -3038,7 +3038,7 @@ F 3 "~" H 8150 10825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP28
+L UPduino_v3.0:Connector_TestPoint TP28
 U 1 1 5E213CF5
 P 7950 11000
 F 0 "TP28" V 7904 11188 50  0000 L CNN
@@ -3049,7 +3049,7 @@ F 3 "~" H 8150 11000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP17
+L UPduino_v3.0:Connector_TestPoint TP17
 U 1 1 5E214CFC
 P 6950 10650
 F 0 "TP17" V 6904 10838 50  0000 L CNN
@@ -3068,7 +3068,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 10650 7950 10650
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP20
+L UPduino_v3.0:Connector_TestPoint TP20
 U 1 1 5E4046CC
 P 6950 10825
 F 0 "TP20" V 6904 11013 50  0000 L CNN
@@ -3079,7 +3079,7 @@ F 3 "~" H 7150 10825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:TestPoint-Connector-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue TP21
+L UPduino_v3.0:Connector_TestPoint TP21
 U 1 1 5E404D5A
 P 6950 11000
 F 0 "TP21" V 6904 11188 50  0000 L CNN
@@ -3098,7 +3098,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 10825 6950 10825
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C30
+L UPduino_v3.0:Device_C C30
 U 1 1 5DED1A10
 P 4600 1400
 F 0 "C30" H 4715 1446 50  0000 L CNN
@@ -3109,7 +3109,7 @@ F 3 "~" H 4600 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C22
+L UPduino_v3.0:Device_C C22
 U 1 1 5DED1D6F
 P 2600 1450
 F 0 "C22" H 2715 1496 50  0000 L CNN
@@ -3123,7 +3123,7 @@ Connection ~ 2200 1300
 Wire Wire Line
 	2200 1300 2350 1300
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C35
+L UPduino_v3.0:Device_C C35
 U 1 1 5DED269D
 P 7200 1450
 F 0 "C35" H 7315 1496 50  0000 L CNN
@@ -3153,7 +3153,7 @@ Wire Wire Line
 	4600 1250 4200 1250
 Connection ~ 4200 1250
 $Comp
-L UPduino_v3.0-rescue:74AUC2G125-74xGxx-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue U8
+L UPduino_v3.0:74xGxx_74AUC2G125 U8
 U 2 1 5E044C02
 P 10250 1250
 F 0 "U8" H 10225 983 50  0000 C CNN
@@ -3170,7 +3170,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2200 9850 1550
 $Comp
-L UPduino_v3.0-rescue:C-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue C36
+L UPduino_v3.0:Device_C C36
 U 1 1 5E10AC52
 P 10650 2650
 F 0 "C36" H 10765 2696 50  0000 L CNN
@@ -3183,7 +3183,7 @@ $EndComp
 Text Label 10850 2200 0    50   ~ 0
 CLK_12M_EXT
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR050
+L UPduino_v3.0:power_GND #PWR050
 U 1 1 5E0D8D93
 P 10400 2475
 F 0 "#PWR050" H 10400 2225 50  0001 C CNN
@@ -3194,7 +3194,7 @@ F 3 "" H 10400 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R16
+L UPduino_v3.0:Device_R R16
 U 1 1 5E39536F
 P 10700 1250
 F 0 "R16" V 10907 1250 50  0000 C CNN
@@ -3205,7 +3205,7 @@ F 3 "~" H 10700 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR066
+L UPduino_v3.0:power_+3.3V #PWR066
 U 1 1 5E10B731
 P 10650 2500
 F 0 "#PWR066" H 10650 2350 50  0001 C CNN
@@ -3216,7 +3216,7 @@ F 3 "" H 10650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR0104
+L UPduino_v3.0:power_GND #PWR0104
 U 1 1 5DF76DB2
 P 10650 2800
 F 0 "#PWR0104" H 10650 2550 50  0001 C CNN
@@ -3247,7 +3247,7 @@ Wire Wire Line
 	14100 8050 14800 8050
 Connection ~ 14100 8050
 $Comp
-L UPduino_v3.0-rescue:+5VD-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR0105
+L UPduino_v3.0:power_+5VD #PWR0105
 U 1 1 5DF92752
 P 14525 3750
 F 0 "#PWR0105" H 14525 3600 50  0001 C CNN
@@ -3260,7 +3260,7 @@ $EndComp
 Wire Wire Line
 	14725 3750 14525 3750
 $Comp
-L UPduino_v3.0-rescue:+3.3V-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR062
+L UPduino_v3.0:power_+3.3V #PWR062
 U 1 1 5E1094FC
 P 10350 1850
 F 0 "#PWR062" H 10350 1700 50  0001 C CNN
@@ -3275,7 +3275,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 1925 10350 1850
 $Comp
-L UPduino_v3.0-rescue:74AUC2G125-74xGxx-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue U8
+L UPduino_v3.0:74xGxx_74AUC2G125 U8
 U 1 1 5E047954
 P 10350 2200
 F 0 "U8" H 10050 2250 50  0000 C CNN
@@ -3292,7 +3292,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 1600 10150 1600
 $Comp
-L UPduino_v3.0-rescue:GND-power-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue #PWR0106
+L UPduino_v3.0:power_GND #PWR0106
 U 1 1 5E3A0753
 P 10150 1600
 F 0 "#PWR0106" H 10150 1350 50  0001 C CNN
@@ -3306,7 +3306,7 @@ Connection ~ 10150 1600
 Wire Wire Line
 	10150 1600 10250 1600
 $Comp
-L UPduino_v3.0-rescue:R-Device-UPduino_V2.2-rescue-UPduino_v3.0-rescue-UPduino_v3.0-rescue R28
+L UPduino_v3.0:Device_R R28
 U 1 1 5E374072
 P 10750 4650
 F 0 "R28" H 10900 4600 50  0000 C CNN
