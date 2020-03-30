@@ -27,7 +27,7 @@ Please see the [wiki page](https://github.com/tinyvision-ai-inc/UPduino-v3.0/wik
 
 Here are some resources for you:
 * [Schematic](./Board/KiCAD\UPduino_v3.0.pdf)
-* [Assembly Drawing](./Board/KiCAD/UPduino 3.0 Assembly.html)
+* [Assembly Drawing](./Board/KiCAD/UPduino_v3.0 Assembly.html)
 * [Blinking LED](./RTL/blink_led)
 
 ### Please fill out the [survey](https://www.surveymonkey.com/r/HH536D8) to suggest improvements to this board. We really appreciate the feedback and will make improvements as business permits!
