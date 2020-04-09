@@ -13,7 +13,7 @@
 | Programming | Flash | Programs | Pass |
 |  | CRAM | Programs | Pass |
 | LED | DONE | Lights when FPGA programs, low otherwise | Pass |
-| 3 color LED | Not installed! | DNI | Untested |
+| 3 color LED | Able to get all 3 colors | Works | Pass |
 | PLL lock | Locked | TBD | Untested |
 
 
