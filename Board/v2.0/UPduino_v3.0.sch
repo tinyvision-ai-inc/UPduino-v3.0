@@ -567,12 +567,12 @@ $EndComp
 $Comp
 L UPduino_v3.0:power_+3.3V #PWR08
 U 1 1 5DE7D656
-P 1800 8550
-F 0 "#PWR08" H 1800 8400 50  0001 C CNN
-F 1 "+3.3V" V 1800 8650 50  0000 L CNN
-F 2 "" H 1800 8550 50  0001 C CNN
-F 3 "" H 1800 8550 50  0001 C CNN
-	1    1800 8550
+P 2650 8550
+F 0 "#PWR08" H 2650 8400 50  0001 C CNN
+F 1 "+3.3V" V 2650 8650 50  0000 L CNN
+F 2 "" H 2650 8550 50  0001 C CNN
+F 3 "" H 2650 8550 50  0001 C CNN
+	1    2650 8550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -708,19 +708,6 @@ F 3 "" H 2150 7300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2150 7000 2150 6950
-$Comp
-L UPduino_v3.0:Device_R_Small R2
-U 1 1 5DF04286
-P 2050 8550
-F 0 "R2" V 2000 8400 50  0000 C CNN
-F 1 "10K" V 2000 8700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2050 8550 50  0001 C CNN
-F 3 "~" H 2050 8550 50  0001 C CNN
-	1    2050 8550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1950 8550 1800 8550
 $Comp
 L UPduino_v3.0:W25Q32JVSS-Memory_Flash U5
 U 1 1 5DF49E9E
@@ -1073,8 +1060,8 @@ L UPduino_v3.0:Device_LED_ARGB D3
 U 1 1 5E0817D1
 P 11250 4900
 F 0 "D3" H 11250 4433 50  0000 C CNN
-F 1 "MHPA1515RGBDT-S" H 11250 4524 50  0000 C CNN
-F 2 "vs:LED_1.65X1.55" H 11250 4850 50  0001 C CNN
+F 1 "CLMVC-FKA-CLBDGL7LBB79353" H 10950 4500 50  0000 C CNN
+F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H 11250 4850 50  0001 C CNN
 F 3 "~" H 11250 4850 50  0001 C CNN
 	1    11250 4900
 	-1   0    0    1   
@@ -1701,10 +1688,6 @@ Text Label 13900 1300 0    50   ~ 0
 CRESET_N
 Text Label 13900 1400 0    50   ~ 0
 CDONE
-Text Label 11900 1050 0    50   ~ 0
-ICE_SS
-Text Label 11900 1150 0    50   ~ 0
-ICE_SCK
 Text Label 11900 1250 0    50   ~ 0
 FLASH_MOSI
 Text Label 11900 1350 0    50   ~ 0
@@ -1787,23 +1770,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 7500 6250 7500
 Connection ~ 6250 7500
-$Comp
-L UPduino_v3.0:Device_C_Small C26
-U 1 1 5EF2C2B9
-P 2300 8650
-F 0 "C26" H 2450 8700 50  0000 C CNN
-F 1 "10n" H 2450 8800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 8650 50  0001 C CNN
-F 3 "~" H 2300 8650 50  0001 C CNN
-	1    2300 8650
-	-1   0    0    1   
-$EndComp
-Connection ~ 2300 8750
-Wire Wire Line
-	2150 8550 2300 8550
-Connection ~ 2300 8550
-Wire Wire Line
-	2300 8550 2900 8550
 $Comp
 L UPduino_v3.0:Device_R_Small R4
 U 1 1 5EF8A5CB
@@ -2175,8 +2141,8 @@ L UPduino_v3.0:Diode_1N4148W D2
 U 1 1 5DDBFCE1
 P 2550 5650
 F 0 "D2" H 2550 5867 50  0000 C CNN
-F 1 "1N4148W-TP" H 2550 5776 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2550 5475 50  0001 C CNN
+F 1 "1N4148WT-7" H 2550 5776 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 2550 5475 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2550 5650 50  0001 C CNN
 	1    2550 5650
 	-1   0    0    -1  
@@ -2504,8 +2470,6 @@ Wire Wire Line
 	14750 1800 14600 1800
 Wire Wire Line
 	14600 1100 14750 1100
-Text Label 2350 8550 0    50   ~ 0
-FT_RESET_N
 $Comp
 L UPduino_v3.0:Device_C C33
 U 1 1 5EA9B789
@@ -3196,4 +3160,12 @@ Wire Wire Line
 Connection ~ 12800 7950
 Wire Wire Line
 	12800 7950 12850 7950
+Text Notes 11700 7250 0    50   ~ 0
+Layout Note:\nLayout with overlapping resistors so that only horizontal/vertical resistors need to be installed.
+Text Label 11900 1050 0    50   ~ 0
+FT_SSn
+Text Label 11900 1150 0    50   ~ 0
+FT_SCK
+Wire Wire Line
+	2650 8550 2900 8550
 $EndSCHEMATC
