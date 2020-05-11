@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:UPduino_v3.0-cache
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1061,7 +1062,7 @@ U 1 1 5E0817D1
 P 11250 4900
 F 0 "D3" H 11250 4433 50  0000 C CNN
 F 1 "CLMVC-FKA-CLBDGL7LBB79353" H 10950 4500 50  0000 C CNN
-F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H 11250 4850 50  0001 C CNN
+F 2 "VS.preety:LED_Cree-PLCC4_2x2mm_CW" H 11250 4850 50  0001 C CNN
 F 3 "~" H 11250 4850 50  0001 C CNN
 	1    11250 4900
 	-1   0    0    1   
@@ -1492,11 +1493,11 @@ Wire Wire Line
 	11800 4900 11450 4900
 Wire Wire Line
 	11800 4700 11450 4700
-Text Label 11550 4700 0    50   ~ 0
+Text Label 11550 5100 0    50   ~ 0
 LED_B
 Text Label 11550 4900 0    50   ~ 0
 LED_G
-Text Label 11550 5100 0    50   ~ 0
+Text Label 11550 4700 0    50   ~ 0
 LED_R
 $Comp
 L UPduino_v3.0:Device_C C24
