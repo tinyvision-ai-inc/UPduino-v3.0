@@ -2,8 +2,8 @@
 # Note that they are negative logic (write a 0 to turn on).
 # These are also brought out to the left side of the board. 
 # Cut the board trace on jumper R28 to disable the onboard 3 color LED.
-set_io -nowarn led_red	41
 set_io -nowarn led_green 39
+set_io -nowarn led_red	41
 set_io -nowarn led_blue	40
 
 # FTDI chip interface
@@ -40,12 +40,11 @@ set_io -nowarn gpio_28 28
 
 # Note: On board 12MHz clock can be brought to IOB_25B_G3 (pin 20) which is a global
 # clock input. Short across R16 (labelled OSC on the board) to enable 12MHz clock to
-# this pin.
+# pin 20.
 set_io -nowarn gpio_20 20
-
 set_io -nowarn gpio_10 10
 
-# Following are alos found on v2.x of the UPduino
+# Following are also found on v2.x of the UPduino
 set_io -nowarn gpio_12 12
 set_io -nowarn gpio_21 21
 set_io -nowarn gpio_13 13

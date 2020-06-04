@@ -11,6 +11,7 @@ module rgb_blink
     output  wire        led_green        // Green
 );
     reg         rstn;
+    reg         int_osc;
     reg [27:0]  frequency_counter_i;
 
 //----------------------------------------------------------------------------
@@ -41,9 +42,9 @@ module rgb_blink
       .RGB1PWM  (frequency_counter_i[25]&~frequency_counter_i[24]),
       .RGB2PWM  (~frequency_counter_i[25]&frequency_counter_i[24]),
       .CURREN   (1'b1),
-      .RGB0     (led_red),		//Actual Hardware connection
-      .RGB1     (led_green),
-      .RGB2     (led_blue)
+      .RGB0     (led_green),		//Actual Hardware connection
+      .RGB1     (led_blue),
+      .RGB2     (led_red)
     );
     defparam RGB_DRIVER.RGB0_CURRENT = "0b000001";
     defparam RGB_DRIVER.RGB1_CURRENT = "0b000001";

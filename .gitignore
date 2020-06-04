@@ -26,3 +26,8 @@ desktop.ini
 # Exported BOM files
 *.xml
 *.csv
+
+# FPGA build droppings
+*.json
+*.blif
+*.asc
