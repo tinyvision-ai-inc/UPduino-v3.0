@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name UPduino_v3.0)(type Legacy)(uri ${KIPRJMOD}/UPduino_v3.0.lib)(options "")(descr ""))
+)
