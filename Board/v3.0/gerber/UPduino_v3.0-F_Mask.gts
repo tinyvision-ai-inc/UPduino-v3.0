@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*%
-%TF.CreationDate,2020-06-05T17:01:32-07:00*%
+%TF.CreationDate,2020-06-07T22:11:54-07:00*%
 %TF.ProjectId,UPduino_v3.0,55506475-696e-46f5-9f76-332e302e6b69,3.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-06-05 17:01:32*
+G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-06-07 22:11:54*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
