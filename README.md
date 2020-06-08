@@ -1,6 +1,6 @@
 # UPduino-v3.0
 
-<img src="./assets/images/UPduino_v3.0_front.jpg" alt="UPduino v3.0 Front" width="400"/>
+<img src="./assets/UPduino_v3.0_front.jpg" alt="UPduino v3.0 Front" width="400"/>
 
 ## UPDuino v3.0: PCB Design Files, Designs, Documentation
 
@@ -26,8 +26,8 @@ Please see the [wiki page](https://github.com/tinyvision-ai-inc/UPduino-v3.0/wik
 * tinyFPGA bootloader compatible (short R22/R23/C26, install 1.5K on R21, open R35/R36)
 
 Here are some resources for you:
-* [Schematic](./Board/KiCAD\UPduino_v3.0.pdf)
-* [Assembly Drawing](./Board/KiCAD/UPduino_v3.0 Assembly.html)
+* [Schematic](./Board/v2.0/UPduino_v3.0.pdf)
+* [Assembly Drawing](./Board/v2.0/UPduino_v3.0 Assembly.html)
 * [Blinking LED](./RTL/blink_led)
 
 ### Please fill out the [survey](https://www.surveymonkey.com/r/HH536D8) to suggest improvements to this board. We really appreciate the feedback and will make improvements as business permits!
