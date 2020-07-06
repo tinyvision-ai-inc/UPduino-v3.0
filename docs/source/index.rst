@@ -55,6 +55,7 @@ Useful links:
    :hidden:
 
    introduction/introduction
+   introduction/test2
    
 .. toctree::
    :maxdepth: 2
