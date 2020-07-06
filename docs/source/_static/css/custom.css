@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: "Inter";
-    src: url(../fonts/static/Inter-Regular-slnt=0.ttf);
+    src: local('yourfont Novum Light') url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 }
 
 body{
