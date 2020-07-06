@@ -109,7 +109,7 @@ html_sidebars = {
 }
 
 
-html_favicon = 'favicon.png'
+html_favicon = 'favicon_itg_icon.ico'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
