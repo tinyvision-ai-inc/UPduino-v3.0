@@ -31,4 +31,5 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    src: local('Inter') url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 }
