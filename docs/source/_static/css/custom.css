@@ -23,3 +23,7 @@
 .wy-nav-content {
     max-width: none;
 }
+
+body{
+    font-family: "Inter", Helvetica, sans-serif;
+}
