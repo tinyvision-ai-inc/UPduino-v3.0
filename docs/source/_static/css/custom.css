@@ -1,0 +1,25 @@
+.wy-side-nav-search {
+    background-color: #521c84;
+}
+
+.wy-nav-side {
+    background: #3b363d;
+    color: #c595e6;
+}
+
+.wy-nav-top {
+    background: #521c84;
+}
+
+.rst-versions .rst-current-version {
+    background: #521c84;
+}
+
+.caption-text {
+    font-weight: bold;
+    color: #c595e6;
+}
+
+.wy-nav-content {
+    max-width: none;
+}
