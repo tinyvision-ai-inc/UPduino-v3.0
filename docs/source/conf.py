@@ -109,6 +109,8 @@ html_sidebars = {
 }
 
 
+html_favicon = 'favicon.png'
+
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
