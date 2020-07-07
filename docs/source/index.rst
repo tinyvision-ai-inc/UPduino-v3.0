@@ -55,7 +55,7 @@ Useful links:
    :hidden:
 
    introduction/introduction
-   
+
 .. toctree::
    :maxdepth: 2
    :caption: Getting Started
