@@ -1634,7 +1634,7 @@ FLASH_MOSI
 Text Label 13550 7950 0    50   ~ 0
 FPGA_SI
 Text Notes 8800 8700 0    50   ~ 0
-This mode requires the flash \nto be programmed with the \ntinyFPGA bootloader.\n\nTo enable:\n- Program Flash with bootloader\n- Short C26\n- Open R35, 36\n- Install R22, R23 (68 Ohms)\n- Install R21 (1.5K)\n- Enjoy!
+This mode requires the flash \nto be programmed with the \ntinyFPGA bootloader.\n\nTo enable:\n- Program Flash with bootloader\n- Open R35, 36\n- Install R22, R23 (68 Ohms)\n- Install R21 (1.5K)\n- Enjoy!
 Text Notes 12150 8800 0    100  ~ 0
 Programming modes:\nFlash: Default, horizontal short\nCRAM: Optional, vertical short
 Wire Wire Line
@@ -3154,10 +3154,10 @@ FT_SCK
 Wire Wire Line
 	2650 8550 2900 8550
 $Comp
-L UPduino_v3.0:power_GND #PWR?
+L UPduino_v3.0:power_GND #PWR0107
 U 1 1 5F065A7C
 P 12650 1650
-F 0 "#PWR?" H 12650 1400 50  0001 C CNN
+F 0 "#PWR0107" H 12650 1400 50  0001 C CNN
 F 1 "GND" H 12655 1477 50  0001 C CNN
 F 2 "" H 12650 1650 50  0001 C CNN
 F 3 "" H 12650 1650 50  0001 C CNN
