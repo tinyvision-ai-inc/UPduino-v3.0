@@ -1,0 +1,29 @@
+Drill report for C:\Users\vrang\OneDrive\Documents\GitHub\UPduino-v3.0_new\Board\v3.0\UPduino_v3.0.kicad_pcb
+Created on 7/6/2020 6:35:16 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'UPduino_v3.0-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (76 holes)
+    T2  0.40mm  0.016"  (47 holes)
+    T3  0.60mm  0.024"  (2 holes)  (with 2 slots)
+    T4  0.65mm  0.026"  (2 holes)  (with 2 slots)
+    T5  1.00mm  0.039"  (50 holes)
+
+    Total plated holes count 177
+
+
+Drill file 'UPduino_v3.0-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  2.50mm  0.098"  (4 holes)
+
+    Total unplated holes count 4
