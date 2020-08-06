@@ -21,6 +21,7 @@ The tinyVision.ai UPduino v3.0 Board Features:
 * Lattice UltraPlus ICE40UP5K FPGA with 5.3K LUTs, 1Mb SPRAM, 120Kb DPRAM, 8 Multipliers
 * FTDI FT232H USB to SPI Device
 * _ALL_ 32 FPGA GPIO on 0.1” headers
+* _ALL_ FTDI pins brought to test points
 * 4MB SPI Flash
 * RGB LED
 * On board 3.3V and 1.2V Regulators, can supply 3.3V to your project
@@ -33,8 +34,8 @@ Please see the `wiki page <https://github.com/tinyvision-ai-inc/UPduino-v3.0/wik
 * 4 layer board with a solid ground plane, proper layout and decoupling for good signal integrity and FPGA operation
 * Access to on-board 12MHz oscillator using a jumper (short R16)
 * _All_ FPGA pins including LED driver pins are brought to 0.1" headers
-* qSPI capabile: Short R24, R25
-* tinyFPGA bootloader compatible (short R22/R23/C26, install 1.5K on R21, open R35/R36)
+* qSPI flash capability
+* tinyFPGA bootloader compatible
 
 Please fill out the `survey <https://www.surveymonkey.com/r/HH536D8>`_ to suggest improvements to this board. We really appreciate the feedback and will make improvements as business permits!
 
@@ -62,6 +63,8 @@ Useful links:
    :hidden:
 
    getting_started/tool_installation
+   getting_started/first_steps
+   
    
 .. toctree::
    :maxdepth: 2
@@ -75,4 +78,13 @@ Useful links:
    :caption: Tutorials
    :hidden:
 
-   tutorials/usage
+   tutorials/bank_voltages
+   tutorials/oscillator
+   tutorials/disconnect_tricolor_led
+   tutorials/fpga_sram_programming
+   tutorials/qspi_flash
+   tutorials/tinyfpga
+   tutorials/riscv
+   tutorials/open_ocd
+   tutorials/pmod
+   tutorials/adding_slave_select_to_fpga

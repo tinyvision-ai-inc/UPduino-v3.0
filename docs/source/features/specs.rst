@@ -1,4 +1,6 @@
 Specifications
-==============
+====
 
-The UPduino is a rather powerful device. Insert more information
+The UPduino supports the following features:
+- Lattice iCE40 UP5K UG48 FPGA
+

@@ -1,10 +1,17 @@
 Tool Installation
 =================
 
-The UPduino is a rather powerful device. Insert more information
+The UPduino can use an FPGA image generated from either the open source icestorm/apio toolchain or the Lattice Radiant tools.
 
 
-First Steps
------------
+icestorm Tool Installation
+----
 
-These are the first steps in getting started with the UPduino....
+You can follow the instructions to install the icestorm toolchain from various links on the web. Some are listed below for reference:
+- https://github.com/FPGAwars/toolchain-icestorm/wiki
+
+
+
+Lattice Radiant Installation
+----
+You can follow instructions from teh Lattice website to install Radiant. Note that this tool only support Linux and Windows.
