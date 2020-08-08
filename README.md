@@ -22,7 +22,7 @@ Please see the [wiki page](https://github.com/tinyvision-ai-inc/UPduino-v3.0/wik
 * 4 layer board with a solid ground plane, proper layout and decoupling for good signal integrity and FPGA operation
 * Access to on-board 12MHz oscillator using a jumper (short R16)
 * _All_ FPGA pins including LED driver pins are brought to 0.1" headers
-* qSPI capabile: Short R24, R25
+* qSPI capable: Short R24, R25
 * tinyFPGA bootloader compatible (short R22/R23/C26, install 1.5K on R21, open R35/R36)
 
 Here are some resources for you:
