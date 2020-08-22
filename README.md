@@ -2,6 +2,8 @@
 
 <img src="./assets/UPduino_v3.0_front.png" alt="UPduino v3.0 Front" width="400"/>
 
+Image credit: Gregory Benjamin
+
 ## UPDuino v3.0: PCB Design Files, Designs, Documentation
 
 The UPDuino v3.0 is a small, low cost FPGA board. The board features an on-board FPGA programmer, flash and LED with _all_ FPGA pins brought out to easy to use 0.1" header pins for fast prototyping.
