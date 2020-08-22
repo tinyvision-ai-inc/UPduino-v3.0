@@ -1,0 +1,4 @@
+ftdi_eeprom --flash-eeprom upduino_30_eeprom.conf
+# Let the FTDI recover
+sleep 1
+iceprog ./blink_led_upduino.bin
