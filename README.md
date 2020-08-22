@@ -1,6 +1,6 @@
 # UPduino-v3.0
 
-<img src="./assets/UPduino_v3.0_front.jpg" alt="UPduino v3.0 Front" width="400"/>
+<img src="./assets/UPduino_v3.0_front.png" alt="UPduino v3.0 Front" width="400"/>
 
 ## UPDuino v3.0: PCB Design Files, Designs, Documentation
 
