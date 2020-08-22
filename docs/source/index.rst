@@ -77,7 +77,8 @@ Useful links:
    :maxdepth: 2
    :caption: Tutorials
    :hidden:
-
+   
+   tutorials/blink_led.rst
    tutorials/bank_voltages
    tutorials/oscillator
    tutorials/disconnect_tricolor_led
