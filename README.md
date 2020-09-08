@@ -22,20 +22,21 @@ The tinyVision.ai UPduino v3.0 Board Features:
 
 Please see the [wiki page](https://github.com/tinyvision-ai-inc/UPduino-v3.0/wiki) for the changes that were implemented from v2.1. Some salient features are:
 * 4 layer board with a solid ground plane, proper layout and decoupling for good signal integrity and FPGA operation
-* Access to on-board 12MHz oscillator using a jumper (short R16)
+* Access to on-board 12MHz oscillator using a jumper
 * _All_ FPGA pins including LED driver pins are brought to 0.1" headers
-* qSPI capable: Short R24, R25
-* tinyFPGA bootloader compatible (short R22/R23/C26, install 1.5K on R21, open R35/R36)
+* qSPI Flash capable
+* tinyFPGA bootloader compatible
 
 Here are some resources for you:
 * [Documentation](http://upduino.readthedocs.io/) (beyond whats on this GitHub)
-* [Schematic](./Board/v2.0/UPduino_v3.0.pdf)
-* [AssemblyDrawing](./Board/v2.0/UPduino_v3.0Assembly.html)
+* [Discord channel](https://discord.gg/3qbXujE)
+* [Schematic](./Board/v3.0/UPduino_v3.0.pdf)
+* [AssemblyDrawing](./Board/v3.0/UPduino_v3.0Assembly.html)
 * [Blinking LED](./RTL/blink_led)
 
 ### Please fill out the [survey](https://www.surveymonkey.com/r/HH536D8) to suggest improvements to this board. We really appreciate the feedback and will make improvements as business permits!
 
-You can buy this board here very soon:<a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+You can buy this board here:<a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>. For bulk orders, pelase email us directly at: sales at tinyvision dot ai.
 
 ## Useful links
 * [osresearch](https://github.com/osresearch/up5k): large collection of very useful code and a good overview.
