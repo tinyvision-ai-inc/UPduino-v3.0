@@ -28,6 +28,7 @@ Please see the [wiki page](https://github.com/tinyvision-ai-inc/UPduino-v3.0/wik
 * tinyFPGA bootloader compatible (short R22/R23/C26, install 1.5K on R21, open R35/R36)
 
 Here are some resources for you:
+* [Documentation](http://upduino.readthedocs.io/) (beyond whats on this GitHub)
 * [Schematic](./Board/v2.0/UPduino_v3.0.pdf)
 * [AssemblyDrawing](./Board/v2.0/UPduino_v3.0Assembly.html)
 * [Blinking LED](./RTL/blink_led)
