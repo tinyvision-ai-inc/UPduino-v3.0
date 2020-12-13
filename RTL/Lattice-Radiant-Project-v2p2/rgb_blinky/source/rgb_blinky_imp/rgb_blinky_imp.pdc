@@ -1,0 +1,14 @@
+# simple example constraints file for RGB blinky demo for UPduino v3.0
+ldc_set_location -site {<39>} [get_ports <led_green>]
+ldc_set_location -site {<40>} [get_ports <led_blue>]
+ldc_set_location -site {<41>} [get_ports <led_red>]
+# following is to lock ports - but contraints tool should be checked
+# since subsequent compiles could move port assignments
+ldc_set_location -site {<35>} [get_ports <JTAG_TCK>]
+ldc_set_location -site {<28>} [get_ports <JTAG_TDI>]
+ldc_set_location -site {<32>} [get_ports <JTAG_TMS>]
+ldc_set_location -site {<31>} [get_ports <JTAG_TDO>]
+ldc_set_location -site {28} [get_ports JTAG_TDI]
+ldc_set_location -site {32} [get_ports JTAG_TMS]
+ldc_set_location -site {31} [get_ports JTAG_TDO]
+ldc_set_location -site {35} [get_ports JTAG_TCK]

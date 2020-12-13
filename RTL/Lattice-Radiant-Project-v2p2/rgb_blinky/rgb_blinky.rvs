@@ -1,0 +1,24 @@
+<Project ModBy="Analyzer" Date="2020-12-13" Name="F:/whathisface/UPduino-v3.0/RTL/Lattice-Radiant-Project-v2p2/rgb_blinky/rgb_blinky.rvs">
+ <Core Name="rgb_blink_LA0">
+  <Setting>
+   <Capture NumTrigsCap="3" SamplesPerTrig="256"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting AND_ALL="0" PostTrgSamples="" PreTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="frequency_counter_i:10"/>
+    <Sig Name="frequency_counter_i:5"/>
+    <Sig Name="frequency_counter_i:4"/>
+    <Sig Name="frequency_counter_i:3"/>
+    <Sig Name="frequency_counter_i:2"/>
+    <Sig Name="frequency_counter_i:1"/>
+    <Sig Name="frequency_counter_i:0"/>
+   </Trace>
+   <Trigger>
+    <TU ID="1" Radix="0" Value="1" Operator="0" Name="TU1" Index="1"/>
+    <TE ID="1" Expression="tu1" Name="TE1" Index="1" Enable="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="R2.1">
+	<Comment></Comment>
+	<Chain>
+		<Comm>SPI</Comm>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>1</Pos>
+			<Vendor>Lattice</Vendor>
+			<Family>iCE40 UltraPlus</Family>
+			<Name>iCE40UP5K</Name>
+			<Package>All</Package>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>../../rgb_blinky_imp/rgb_blinky_rgb_blinky_imp.bin</File>
+			<FileTime>12/13/20 00:51:49</FileTime>
+			<MemoryType>External SPI Flash Memory (SPI FLASH)</MemoryType>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<AccessMode>Direct Programming</AccessMode>
+			</Option>
+			<FPGALoader>
+			<CPLDDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Lattice</Vendor>
+					<Family>iCE40 UltraPlus</Family>
+					<Name>iCE40UP5K</Name>
+					<IDCode>0x11200639</IDCode>
+					<Package>All</Package>
+					<PON>iCE40UP5K</PON>
+					<Bypass>
+						<InstrLen>8</InstrLen>
+						<InstrVal>11111111</InstrVal>
+						<BScanLen>1</BScanLen>
+						<BScanVal>0</BScanVal>
+					</Bypass>
+					<MemoryType>Compressed Random Access Memory (CRAM)</MemoryType>
+					<Operation>Bypass</Operation>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<IOState>HighZ</IOState>
+						<IOVectorData></IOVectorData>
+						<AccessMode>Direct Programming</AccessMode>
+					</Option>
+				</Device>
+			</CPLDDevice>
+			<FlashDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>WinBond</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>W25Q32JV</Name>
+					<IDCode>0x15</IDCode>
+					<Package>208mil 8-pin SOIC</Package>
+					<Operation>Erase,Program,Verify</Operation>
+					<File>../../rgb_blinky_imp/rgb_blinky_rgb_blinky_imp.bin</File>
+					<AddressBase>0x00000000</AddressBase>
+					<EndAddress>0x00010000</EndAddress>
+					<DeviceSize>32</DeviceSize>
+					<DataSize>104156</DataSize>
+					<NumberOfDevices>1</NumberOfDevices>
+					<ReInitialize value="FALSE"/>
+				</Device>
+			</FlashDevice>
+			<FPGADevice>
+				<Device>
+					<Pos>1</Pos>
+					<Name></Name>
+					<File>F:/whathisface/UPduino-v3.0/RTL/Lattice-Radiant-Project-v2p2/rgb_blinky/rgb_blinky_imp/rgb_blinky_rgb_blinky_imp.bin</File>
+					<LocalChainList>
+						<LocalDevice index="-99"
+							name="Unknown"
+							file="F:/whathisface/UPduino-v3.0/RTL/Lattice-Radiant-Project-v2p2/rgb_blinky/rgb_blinky_imp/rgb_blinky_rgb_blinky_imp.bin"/>
+					</LocalChainList>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+					</Option>
+				</Device>
+			</FPGADevice>
+			</FPGALoader>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-1</PortAdd>
+		<USBID>UPduino v3.0 Location 0001 Serial </USBID>
+	</CableOptions>
+</ispXCF>

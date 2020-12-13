@@ -1,0 +1,29 @@
+<Project SigType="0" ModBy="Inserter" Name="F:/whathisface/UPduino-v3.0/RTL/Lattice-Radiant-Project-v2p2/rgb_blinky/rgb_blinky.rvl" Date="2020-12-13">
+    <IP Version="1_6_042617"/>
+    <Design DeviceFamily="iCE40UP" Synthesis="synplify" DesignName="rgb_blinky" DesignEntry="Schematic/Verilog HDL" JTAG="soft"/>
+    <Core ID="0" Reveal_sig="320473703" InsertDataset="0" Name="rgb_blink_LA0" Insert="1">
+        <Setting>
+            <Clock EnableClk="" SampleClk="int_osc" SampleEnable="0" EnableClk_Pri="0"/>
+            <TraceBuffer IncTrigSig="0" hasTimeStamp="0" BufferDepth="1024" BitTimeStamp="0" Implementation="0"/>
+            <Capture MinSamplesPerTrig="8" Mode="1"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut TrigOutNet="reveal_debug_rgb_blink_LA0_net" Polarity="0" MinPulseWidth="0" TrigOutNetType="0" EnableTrigOut="0"/>
+            <DistRAM Disable="1"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="frequency_counter_i:10"/>
+                <Sig Type="SIG" Name="frequency_counter_i:5"/>
+                <Sig Type="SIG" Name="frequency_counter_i:4"/>
+                <Sig Type="SIG" Name="frequency_counter_i:3"/>
+                <Sig Type="SIG" Name="frequency_counter_i:2"/>
+                <Sig Type="SIG" Name="frequency_counter_i:1"/>
+                <Sig Type="SIG" Name="frequency_counter_i:0"/>
+            </Trace>
+            <Trigger>
+                <TU ID="1" Type="0" Serialbits="0" Sig="frequency_counter_i:0,"/>
+                <TE ID="1" Resource="1" MaxSequence="1" MaxEvnCnt="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

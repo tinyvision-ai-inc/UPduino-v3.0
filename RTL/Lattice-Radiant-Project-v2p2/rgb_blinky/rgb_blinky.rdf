@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.1" title="rgb_blinky" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="rgb_blinky_imp">
+    <Options/>
+    <Implementation title="rgb_blinky_imp" dir="rgb_blinky_imp" description="rgb_blinky_imp" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="rgb_blink"/>
+        <Source name="source/rgb_blinky_imp/rgb_blink.v" type="Verilog" type_short="Verilog">
+            <Options top_module="rgb_blink"/>
+        </Source>
+        <Source name="rgb_blinky.rvl" type="Reveal" type_short="Reveal">
+            <Options/>
+        </Source>
+        <Source name="rgb_blnky.rva" type="Reveal Analyzer Project File" type_short="RVA">
+            <Options/>
+        </Source>
+        <Source name="source/rgb_blinky_imp.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="source/rgb_blinky_imp/rgb_blinky_imp.ldc" type="LSE Design Constraints File" type_short="LDC">
+            <Options/>
+        </Source>
+        <Source name="source/rgb_blinky_imp/rgb_blinky_imp.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="rgb_blinky1.sty"/>
+</RadiantProject>
