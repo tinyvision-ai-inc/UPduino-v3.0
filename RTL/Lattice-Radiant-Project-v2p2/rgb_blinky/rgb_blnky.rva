@@ -1,0 +1,44 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>Sun Dec 13 01:03:51 2020</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="3"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>0</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName/>
+  <DeviceID/>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>rgb_blinky.rvl</RVLFileName>
+  <RVSFileName>rgb_blinky.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0" CoreType="LA">
+   <TraceSigTreeData>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:0" PortIndex="6"/>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:1" PortIndex="5"/>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:2" PortIndex="4"/>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:3" PortIndex="3"/>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:4" PortIndex="2"/>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:5" PortIndex="1"/>
+    <TraceSignal NodeType="0" Color="" IsHidden="false" Name="frequency_counter_i:10" PortIndex="0"/>
+   </TraceSigTreeData>
+   <TriggerUI PreSelect="1" PreSelectType="0" UserSelectPos="0" UserSelect="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>
