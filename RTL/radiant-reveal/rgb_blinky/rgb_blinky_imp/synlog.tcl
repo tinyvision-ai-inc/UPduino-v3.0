@@ -1,1 +1,0 @@
-run_tcl -fg rgb_blinky_rgb_blinky_imp_synplify.tcl

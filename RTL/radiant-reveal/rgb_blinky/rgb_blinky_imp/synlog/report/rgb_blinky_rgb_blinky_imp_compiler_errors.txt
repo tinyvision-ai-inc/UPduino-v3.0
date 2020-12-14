@@ -1,3 +1,0 @@
-@E: CS164 :"F:\whathisface\UPduino-v3.0\RTL\Lattice-Radiant-Project-v2p2\rgb_blinky\source\rgb_blinky_imp\rgb_blink.v":23:57:23:63|Expecting wire for output connection, found int_osc
-@E::Errors while synthesizing top module rgb_blink.
-

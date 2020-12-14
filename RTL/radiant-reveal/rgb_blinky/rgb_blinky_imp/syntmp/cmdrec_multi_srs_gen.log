@@ -1,7 +1,0 @@
-C:\lscc\radiant\2.2\synpbase\bin64\syn_nfilter.exe  -link  -top  rgb_blink  -multisrs  F:\whathisface\UPduino-v3.0\RTL\Lattice-Radiant-Project-v2p2\rgb_blinky\rgb_blinky_imp\synwork\rgb_blinky_rgb_blinky_imp_comp.srs  -osyn  F:\whathisface\UPduino-v3.0\RTL\Lattice-Radiant-Project-v2p2\rgb_blinky\rgb_blinky_imp\synwork\rgb_blinky_rgb_blinky_imp_mult.srs  -log  F:\whathisface\UPduino-v3.0\RTL\Lattice-Radiant-Project-v2p2\rgb_blinky\rgb_blinky_imp\synlog\rgb_blinky_rgb_blinky_imp_multi_srs_gen.srr 
-relcom:C:\lscc\radiant\2.2\synpbase\bin64\syn_nfilter.exe -link -top rgb_blink -multisrs ..\synwork\rgb_blinky_rgb_blinky_imp_comp.srs -osyn ..\synwork\rgb_blinky_rgb_blinky_imp_mult.srs -log ..\synlog\rgb_blinky_rgb_blinky_imp_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\rgb_blinky_rgb_blinky_imp_comp.srs|io:i|time:1607848926|size:313731|exec:0|csum:EDF4BE6461BFC51F7DE6E3CBB9DD0D2F
-file:..\synwork\rgb_blinky_rgb_blinky_imp_mult.srs|io:o|time:1607848928|size:4994|exec:0|csum:
-file:..\synlog\rgb_blinky_rgb_blinky_imp_multi_srs_gen.srr|io:o|time:1607848928|size:1200|exec:0|csum:
-file:C:\lscc\radiant\2.2\synpbase\bin64\syn_nfilter.exe|io:i|time:1600458272|size:8875008|exec:1|csum:0781385116DA3C8E3116C93207BBC997
