@@ -5,10 +5,11 @@ The UPduino can use an FPGA image generated from either the open source icestorm
 
 
 icestorm Tool Installation
-----
+---------------------------
 
 You can follow the instructions to install the icestorm toolchain from various links on the web. Some are listed below for reference:
 - https://github.com/FPGAwars/toolchain-icestorm/wiki
+- https://github.com/YosysHQ/fpga-toolchain
 
 APIO installation
 -----------------
@@ -26,5 +27,5 @@ Go there, open the apio folder, and replace its contents (but not the folder its
 Note, this process of replacement is limited to pip. If you use a different package manager, refer to where it stores its downloaded and installed packages.
 
 Lattice Radiant Installation
-----
+-----------------------------
 You can follow instructions from teh Lattice website to install Radiant. Note that this tool only support Linux and Windows.
