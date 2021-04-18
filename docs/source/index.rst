@@ -8,7 +8,7 @@
 UPduino Documentation
 =====================
 
-TinyVision.ai
+tinyVision.ai
 *************
 
 UPDuino v3.0: PCB Design Files, Designs, Documentation
@@ -64,7 +64,7 @@ Useful links:
 
    getting_started/tool_installation
    getting_started/first_steps
-   
+   getting_started/verilog_resources
    
 .. toctree::
    :maxdepth: 2
