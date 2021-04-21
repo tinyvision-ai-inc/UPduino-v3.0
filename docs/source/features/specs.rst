@@ -7,6 +7,7 @@ The UPduino supports the following features:
 UPduino Pinout
 --------------
 The pinout was kindly provided by u/Tabsels on r/FPGA (Reddit)
+
 .. image:: upduino_pinout.png
   :width: 600
   :alt: UPduino FPGA board pinout
