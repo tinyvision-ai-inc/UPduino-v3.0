@@ -2,15 +2,15 @@ Specifications
 ================
 
 The UPduino supports the following features:
-- Lattice iCE40 UP5K UG48 FPGA
+  - Lattice iCE40 UP5K UG48 FPGA
 
 UPduino Pinout
 --------------
 The UPduino pinout was kindly provided by Xark below.
-- G0/G1/G3/G6 refer to Global clock inputs.
-- gpio_20 is used for the on-board 12MHz oscillator if the OSC jumper is shorted.
-- gpio_35 is the ideal location to supply a clock as this will allow placement of the PLL right next to it.
-- If gpio_35 is used as an input, y nything other than a clock, you cannot use a PLL in your design!
+  - G0/G1/G3/G6 refer to Global clock inputs.
+  - gpio_20 is used for the on-board 12MHz oscillator if the OSC jumper is shorted.
+  - gpio_35 is the ideal location to supply a clock as this will allow placement of the PLL right next to it.
+  - If gpio_35 is used as an input, y nything other than a clock, you cannot use a PLL in your design!
 ::
 
                   PCF  Pin#  _____  Pin#  PCF
