@@ -41,3 +41,9 @@ The UPduino pinout was kindly provided by Xark below.
                gpio_38 | 23           26 | gpio_46
                gpio_28 | 24           25 | gpio_24
                        -------------------
+
+Errata
+======
+Please note that the silkscreen on the UPduino 3.0 has a bug. The GND and 12MHz clock pins are exchanged.
+(Pins 41 and 42 in the drawing above). The drawing above is correct and the silkscreen is wrong for these
+2 pins.
