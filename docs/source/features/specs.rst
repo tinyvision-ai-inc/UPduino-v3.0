@@ -21,7 +21,7 @@ The UPduino pinout was kindly provided by Xark below.
                  <RST> |  3           46 | spi_mosi  (17)
                 <DONE> |  4           45 | spi_miso  (14)
       <RGB2>   led_red |  5           44 | gpio_20   <N/A w/OSC, G3>
-      <RGB0> led_green |  6     U     43 | gpio_10   <input-only???>
+      <RGB0> led_green |  6     U     43 | gpio_10
       <RGB1>  led_blue |  7     P     42 | <GND>
                  <+5V> |  8     D     41 | <12 MHz>
                <+3.3V> |  9     U     40 | gpio_12
