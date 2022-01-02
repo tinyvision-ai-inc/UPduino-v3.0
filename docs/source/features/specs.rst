@@ -39,7 +39,7 @@ The UPduino pinout was kindly provided by Xark below.
                gpio_36 | 21           28 | gpio_45
                gpio_42 | 22           27 | gpio_47
                gpio_38 | 23           26 | gpio_46
-               gpio_28 | 24           25 | gpio_24
+               gpio_28 | 24           25 | gpio_2
                        -------------------
 
 Errata
