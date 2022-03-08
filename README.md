@@ -1,14 +1,14 @@
-# UPduino-v3.0
+# UPduino-v3.0 and 3.1
 
 <img src="./assets/UPduino_v3.0_front.png" alt="UPduino v3.0 Front" width="400"/>
 
 Image credit: Gregory Benjamin
 
-## UPDuino v3.0: PCB Design Files, Designs, Documentation
+## UPDuino v3.1: PCB Design Files, Designs, Documentation
 
-The UPDuino v3.0 is a small, low cost FPGA board. The board features an on-board FPGA programmer, flash and LED with _all_ FPGA pins brought out to easy to use 0.1" header pins for fast prototyping.
+The UPDuino v3.1 is a small, low cost FPGA board. The board features an on-board FPGA programmer, flash and LED with _all_ FPGA pins brought out to easy to use 0.1" header pins for fast prototyping.
 
-The tinyVision.ai UPduino v3.0 Board Features:
+The tinyVision.ai UPduino v3.x Board Features:
 
 * Lattice UltraPlus ICE40UP5K FPGA with 5.3K LUTs, 1Mb SPRAM, 120Kb DPRAM, 8 Multipliers
 * FTDI FT232H USB to SPI Device
@@ -36,7 +36,12 @@ Here are some resources for you:
 
 ### Please fill out the [survey](https://www.surveymonkey.com/r/HH536D8) to suggest improvements to this board. We really appreciate the feedback and will make improvements as business permits!
 
-You can buy this board here:<a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>. For bulk orders, pelase email us directly at: sales at tinyvision dot ai.
+You can buy this board here:
+US and non-EU orders: <a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>. 
+
+EU Orders with VAT paid: <a href="https://lectronz.com/stores/tinyvision-ai-store"><img alt="I sell on Lectronz" src="https://lectronz.com/static/badges/i-sell-on-lectronz-medium.png" /></a>
+
+For expedited shipping options, please visit the storefront at www.tinyvision.ai or email us directly at: sales at tinyvision dot ai.
 
 ## Useful links
 * [osresearch](https://github.com/osresearch/up5k): large collection of very useful code and a good overview.
