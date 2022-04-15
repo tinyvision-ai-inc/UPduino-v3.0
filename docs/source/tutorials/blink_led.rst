@@ -21,7 +21,7 @@ If you want to run the code using icetools (iceprog, specifically), type: ``make
 
 Then: ``iceprog rgb_blink.bin``
 
-You should be the LED blink!
+You should see the LED blink!
 
 If you want to use apio, first type: ``apio init --board upduino3``
 
