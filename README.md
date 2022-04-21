@@ -37,6 +37,7 @@ Here are some resources for you:
 TinyVision.ai blog posts:
 * [Magic Smoke and PTC's](https://blogs.tinyvision.ai/upduino/power/ptc/2021/12/31/magic-smoke-and-PTCs.html)
 * [Lattice Modelsim on Windows](https://blogs.tinyvision.ai/modelsim/windows/linux/radiant/lattice/2022/01/01/Using-Lattice-Modelsim-on-Win-Linux.html)
+* [Ground trampolines and Phase Locked Loops](https://tinyvision.ai/blogs/processing-at-the-edge/ground-trampolines-and-phase-locked-loops)
 
 You can buy this board here:
 US and non-EU orders: <a href="https://www.tindie.com/stores/tinyvision_ai/?ref=offsite_badges&utm_source=sellers_vr2045&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>. 
@@ -51,3 +52,6 @@ For expedited shipping options, please visit the storefront at www.tinyvision.ai
 * [UPduino FPGA tutorial using APIO](https://blog.idorobots.org/entries/upduino-fpga-tutorial.html)
 * [A very detailed blog on implementing a RISCV in the FPGA](https://pingu98.wordpress.com/2019/04/08/)
 * [Lattice iCECube2 tutorial](https://hsel.co.uk/2018/05/21/lattice-ice40-ultra-plus-fpga-gnarly-grey-upduino-tutorial-1-the-basics/)
+
+## The next generation of Upduino (coming soon)
+* [pico-ice](https://github.com/tinyvision-ai-inc/pico-ice)
