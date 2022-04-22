@@ -28,4 +28,4 @@ Note, this process of replacement is limited to pip. If you use a different pack
 
 Lattice Radiant Installation
 -----------------------------
-You can follow instructions from teh Lattice website to install Radiant. Note that this tool only support Linux and Windows.
+You can follow instructions from the Lattice website to install Radiant. Note that this tool only support Linux and Windows.
