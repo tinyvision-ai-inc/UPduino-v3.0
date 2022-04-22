@@ -37,13 +37,18 @@ Please see the `wiki page <https://github.com/tinyvision-ai-inc/UPduino-v3.0/wik
 * qSPI flash capability
 * tinyFPGA bootloader compatible
 
-Please fill out the `survey <https://www.surveymonkey.com/r/HH536D8>`_ to suggest improvements to this board. We really appreciate the feedback and will make improvements as business permits!
-
 Useful links:
 
 * `osresearch <https://github.com/osresearch/up5k>`_: large collection of very useful code and a good overview.
 * `UPduino FPGA tutorial using APIO <https://blog.idorobots.org/entries/upduino-fpga-tutorial.html>`_
 * `A very detailed blog on implementing a RISCV in the FPGA <https://pingu98.wordpress.com/2019/04/08/>`_
+* `Digi-Key FPGA Playlist <https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb>`_: "What is an FPGA" all the way to designing a risc-v custom peripheral in just 12 videos filled with great tutorials, links, and explanations.
+
+TinyVision.ai blog posts:
+
+* `Magic Smoke and PTC's <https://blogs.tinyvision.ai/upduino/power/ptc/2021/12/31/magic-smoke-and-PTCs.html>`_
+* `Lattice Modelsim on Windows <https://blogs.tinyvision.ai/modelsim/windows/linux/radiant/lattice/2022/01/01/Using-Lattice-Modelsim-on-Win-Linux.html>`_
+* `Ground trampolines and Phase Locked Loops <https://tinyvision.ai/blogs/processing-at-the-edge/ground-trampolines-and-phase-locked-loop>`_
 
 .. toctree::
    :hidden:
