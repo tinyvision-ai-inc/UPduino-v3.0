@@ -10,6 +10,7 @@ FPGA's
 - `Project F <https://projectf.io/>`_.
 - `Chipverify <https://www.chipverify.com/verilog/verilog-introduction>`_.
 - `AsicWorld <https://www.asic-world.com/verilog/index.html>`_.
+- `open fpga verilog tutorial <https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki>`_.
 
 Tools
 -------
