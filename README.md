@@ -52,6 +52,7 @@ For expedited shipping options, please visit the storefront at www.tinyvision.ai
 * [UPduino FPGA tutorial using APIO](https://blog.idorobots.org/entries/upduino-fpga-tutorial.html)
 * [A very detailed blog on implementing a RISCV in the FPGA](https://pingu98.wordpress.com/2019/04/08/)
 * [Lattice iCECube2 tutorial](https://hsel.co.uk/2018/05/21/lattice-ice40-ultra-plus-fpga-gnarly-grey-upduino-tutorial-1-the-basics/)
+* [Open FPGA verilog Tutorial](https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki)
 
 ## The next generation of Upduino (coming soon)
 * [pico-ice](https://github.com/tinyvision-ai-inc/pico-ice)
