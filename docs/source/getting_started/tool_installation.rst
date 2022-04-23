@@ -1,10 +1,10 @@
 Tool Installation
 =================
 
-The UPduino can use an FPGA image generated from either the open source icestorm/apio/OSS-CAD-Suite toolchains or the Lattice Radiant tools.
+The UPduino can use an FPGA image generated from either the open source Icestorm/APIO/OSS-CAD-Suite toolchains or the Lattice Radiant tools.
 
 
-icestorm Tool Installation
+OSS-CAD-Suite/Icestorm Tool Installation
 ---------------------------
 
 You can follow the instructions to install the icestorm toolchain from various links on the web. Some are listed below for reference:
