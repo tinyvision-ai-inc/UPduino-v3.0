@@ -18,6 +18,7 @@ The tinyVision.ai UPduino v3.x Board Features:
 * On board 3.3V and 1.2V Regulators, can supply 3.3V to your project
 * Open source schematic and layout using KiCAD design tools
 * Integrated into the open source [APIO toolchain](https://github.com/FPGAwars/apio)
+* Works with [IceStudio](https://github.com/FPGAwars/icestudio)<sup>[nightly/dev branch only at the moment](https://downloads.icestudio.io/)</sup>
 
 
 Please see the [wiki page](https://github.com/tinyvision-ai-inc/UPduino-v3.0/wiki) for the changes that were implemented from v2.1. Some salient features are:
