@@ -16,3 +16,7 @@ Tools
 - `Icarus Verilog <http://iverilog.icarus.com/>`_.
 - `GTKWave <https://iverilog.fandom.com/wiki/GTKWave>`_.
 - `Verilator <https://www.veripool.org/wiki/verilator>`_.
+
+UPduino Examples
+-------
+- `XarkLabs  SystemVerilog Example <https://github.com/XarkLabs/upduino-example>` - demonstrates simulation and other aspects of a more complete software toolchain
