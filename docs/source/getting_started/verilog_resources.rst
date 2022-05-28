@@ -4,8 +4,8 @@ Heres a list of resources to learn all about FPGA's and HW languages. Many have 
 
 FPGA's
 --------
-- `FPGA4fun <www.fpga4fun.com>`_.
-- `8 bit Workshop <www.8bitworkshop.com>`_.
+- `FPGA4fun <https://www.fpga4fun.com>`_.
+- `8 bit Workshop <https://8bitworkshop.com>`_.
 - `iCE40 Samples <https://github.com/damdoy/ice40_ultraplus_examples>`_.
 - `Project F <https://projectf.io/>`_.
 - `Chipverify <https://www.chipverify.com/verilog/verilog-introduction>`_.
@@ -17,3 +17,7 @@ Tools
 - `Icarus Verilog <http://iverilog.icarus.com/>`_.
 - `GTKWave <https://iverilog.fandom.com/wiki/GTKWave>`_.
 - `Verilator <https://www.veripool.org/wiki/verilator>`_.
+
+UPduino Examples
+-------
+- `XarkLabs  SystemVerilog Example <https://github.com/XarkLabs/upduino-example>` - demonstrates simulation and other aspects of a more complete software toolchain
