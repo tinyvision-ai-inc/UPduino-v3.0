@@ -1,9 +1,9 @@
 How to program the FPGA CRAM?
 ====
 
-The FPGA on the UPduino can be programmed by either programming the flash and letting the FPGA reconfigure itself after a reset (default) or else, program the FPGA under direct control of the FTDI part (CRAM programming).
+The FPGA on the UPduino can be programmed by either programming the flash and letting the FPGA reconfigure itself after a reset (default) or by programing the FPGA under direct control of the FTDI part (CRAM programming).
 
-The CRAM in the FPGA is volatile and so will not survive a power down. However, the programming is extremely fast (65ms) ass compared to programming the Flash followed by a reset (>30 seconds). In applications where the FPGA may need to be reconfigured quickly and often such as under control of a processor, it makes sense to use the CRAM mode.
+The CRAM in the FPGA is volatile and so will not survive a power down. However, the programming is extremely fast (65ms) as compared to programming the Flash followed by a reset (>30 seconds). In applications where the FPGA may need to be reconfigured quickly and often such as under control of a processor, it makes sense to use the CRAM mode.
 
 CRAM Programming Mode
 ----
