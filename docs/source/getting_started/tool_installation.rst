@@ -9,7 +9,7 @@ OSS-CAD-Suite/Icestorm Tool Installation
 
 You can follow the instructions to install the icestorm toolchain from various links on the web. Some are listed below for reference:
 
-- https://github.com/YosysHQ/oss-cad-suite-build (Full stack of open source tools related to FPGA development)
+- https://github.com/YosysHQ/oss-cad-suite-build/releases (Full stack of open source tools related to FPGA development)
 - https://github.com/FPGAwars/toolchain-icestorm/wiki
 
 APIO installation
