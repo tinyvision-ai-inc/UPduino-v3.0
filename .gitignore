@@ -16,6 +16,7 @@ _autosave-*
 *-save.kicad_pcb
 *cache
 desktop.ini
+.DS_Store
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -31,3 +32,8 @@ desktop.ini
 *.json
 *.blif
 *.asc
+
+# not publishable files
+/private/
+/.venv/
+/docs/_build/

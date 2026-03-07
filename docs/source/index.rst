@@ -67,8 +67,8 @@ TinyVision.ai blog posts:
    :caption: Getting Started
    :hidden:
 
-   getting_started/tool_installation
    getting_started/first_steps
+   getting_started/tool_installation
    getting_started/verilog_resources
    
 .. toctree::
@@ -86,7 +86,7 @@ TinyVision.ai blog posts:
    tutorials/blink_led.rst
    tutorials/bank_voltages
    tutorials/oscillator
-   tutorials/disconnect_tricolor_led
+   tutorials/disconnect_tri_color_led
    tutorials/fpga_sram_programming
    tutorials/qspi_flash
    tutorials/tinyfpga
