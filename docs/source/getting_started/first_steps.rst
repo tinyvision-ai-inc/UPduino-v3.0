@@ -3,7 +3,8 @@ First Steps
 
 1. When you receive your UPduino, make sure it works properly before you proceed further! A simple way to do this is to plug the UPduino into a standard micro USB cable attached to a standard USB power supply such as a computer or a phone charger. 
   - You should see the green LED (D1) light up and also the 3 color LED go through a Red, Blue Green sequence. 
-  - Also, if you are on a computer, you should see a new USB device called the "UPduino 3.0" show up in your list of USB devices. 
+  - Also, if you are on a computer, you should see a new USB device called the "UPduino 3.0" show up in your list of USB devices.
+  - Do note on v3.1 you should see a FT232H "ID 0403:6014 Future Technology Devices International"
   - The board shows up as a serial port (COMxx on windows and /dev/ttyxx on Linux and Mac).
 2. Download the toolchain of choice: Lattice Radiant and/or icestorm/apio.
 3. Download the git repository for the UPduino and go the RTL/blink_led directory.

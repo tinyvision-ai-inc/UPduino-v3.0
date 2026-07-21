@@ -23,11 +23,15 @@ Then: ``iceprog rgb_blink.bin``
 
 You should see the LED blink!
 
-If you want to use apio, first type: ``apio init --board upduino3``
+If you want to use apio, first type: ``apio create --board upduino3``
 
-Then: ``apio verify`` to make sure your code works, and then finally:
+Then: ``apio lint`` to make sure your code works, and then finally:
 
 ``apio build`` and ``apio upload``
+
+On recent versions of apio, ``upload`` is finicky however 
+
+``iceprog _build/default/hardware.bin`` works. 
 
 The LED should blink now!
 

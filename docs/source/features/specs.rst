@@ -2,7 +2,7 @@ Specifications
 ================
 
 The UPduino supports the following features:
-  - Lattice iCE40 UP5K UG48 FPGA
+  - Lattice iCE40 UP5K SG48 FPGA
 
 UPduino Pinout
 --------------
